@@ -1,0 +1,213 @@
+{
+  "route_info": {
+    "total_cities": 18,
+    "departure_city": "Treviso",
+    "final_destination": "Assisi",
+    "criteria_followed": [
+      "Salida desde Treviso",
+      "Orden obligatorio: Treviso → Florencia → La Spezia → Siena → Asís",
+      "Otras ciudades intercaladas por proximidad geográfica"
+    ]
+  },
+  "route_sequence": [
+    {
+      "sequence": 1,
+      "city_name": "Treviso",
+      "coordinates": {
+        "latitude": 45.6667,
+        "longitude": 12.25
+      },
+      "formatted_address": "Treviso, Veneto, Italy",
+      "distance_from_previous_km": 0,
+      "cumulative_distance_km": 0
+    },
+    {
+      "sequence": 2,
+      "city_name": "Bologna",
+      "coordinates": {
+        "latitude": 44.4938,
+        "longitude": 11.3388
+      },
+      "formatted_address": "Bologna, Emilia-Romagna, Italy",
+      "distance_from_previous_km": 148.8,
+      "cumulative_distance_km": 148.8
+    },
+    {
+      "sequence": 3,
+      "city_name": "Venezia",
+      "coordinates": {
+        "latitude": 45.4388,
+        "longitude": 12.3271
+      },
+      "formatted_address": "Venezia, Veneto, Italy",
+      "distance_from_previous_km": 130.7,
+      "cumulative_distance_km": 279.5
+    },
+    {
+      "sequence": 4,
+      "city_name": "Pistoia",
+      "coordinates": {
+        "latitude": 43.9333,
+        "longitude": 10.9167
+      },
+      "formatted_address": "Pistoia, Toscana, Italy",
+      "distance_from_previous_km": 201.1,
+      "cumulative_distance_km": 480.6
+    },
+    {
+      "sequence": 5,
+      "city_name": "San Gimignano",
+      "coordinates": {
+        "latitude": 43.4738,
+        "longitude": 11.0438
+      },
+      "formatted_address": "San Gimignano, Toscana, Italy",
+      "distance_from_previous_km": 52.1,
+      "cumulative_distance_km": 532.7
+    },
+    {
+      "sequence": 6,
+      "city_name": "Lucca",
+      "coordinates": {
+        "latitude": 43.8437,
+        "longitude": 10.5045
+      },
+      "formatted_address": "Lucca, Toscana, Italy",
+      "distance_from_previous_km": 59.8,
+      "cumulative_distance_km": 592.5
+    },
+    {
+      "sequence": 7,
+      "city_name": "Monteriggioni",
+      "coordinates": {
+        "latitude": 43.3899,
+        "longitude": 11.2232
+      },
+      "formatted_address": "Monteriggioni, Toscana, Italy",
+      "distance_from_previous_km": 76.8,
+      "cumulative_distance_km": 669.3
+    },
+    {
+      "sequence": 8,
+      "city_name": "Pisa",
+      "coordinates": {
+        "latitude": 43.7085,
+        "longitude": 10.4036
+      },
+      "formatted_address": "Pisa, Toscana, Italy",
+      "distance_from_previous_km": 75.0,
+      "cumulative_distance_km": 744.2
+    },
+    {
+      "sequence": 9,
+      "city_name": "Bagno Maurizio",
+      "coordinates": {
+        "latitude": 43.8746,
+        "longitude": 10.2385
+      },
+      "formatted_address": "Bagno Maurizio, Toscana, Italy",
+      "distance_from_previous_km": 22.7,
+      "cumulative_distance_km": 766.9
+    },
+    {
+      "sequence": 10,
+      "city_name": "Firenze",
+      "coordinates": {
+        "latitude": 43.7793,
+        "longitude": 11.2463
+      },
+      "formatted_address": "Firenze, Toscana, Italy",
+      "distance_from_previous_km": 81.5,
+      "cumulative_distance_km": 848.5
+    },
+    {
+      "sequence": 11,
+      "city_name": "Viareggio",
+      "coordinates": {
+        "latitude": 43.8715,
+        "longitude": 10.2333
+      },
+      "formatted_address": "Viareggio, Toscana, Italy",
+      "distance_from_previous_km": 81.9,
+      "cumulative_distance_km": 930.4
+    },
+    {
+      "sequence": 12,
+      "city_name": "Cinque Terre",
+      "coordinates": {
+        "latitude": 44.1281,
+        "longitude": 9.7124
+      },
+      "formatted_address": "Cinque Terre, Liguria, Italy",
+      "distance_from_previous_km": 50.5,
+      "cumulative_distance_km": 980.9
+    },
+    {
+      "sequence": 13,
+      "city_name": "La Spezia",
+      "coordinates": {
+        "latitude": 44.1,
+        "longitude": 9.8167
+      },
+      "formatted_address": "La Spezia, Liguria, Italy",
+      "distance_from_previous_km": 8.9,
+      "cumulative_distance_km": 989.8
+    },
+    {
+      "sequence": 14,
+      "city_name": "Montalcino",
+      "coordinates": {
+        "latitude": 43.0559,
+        "longitude": 11.4891
+      },
+      "formatted_address": "Montalcino, Toscana, Italy",
+      "distance_from_previous_km": 177.8,
+      "cumulative_distance_km": 1167.6
+    },
+    {
+      "sequence": 15,
+      "city_name": "Val d'Orcia (San Quirico d'Orcia)",
+      "coordinates": {
+        "latitude": 43.0578,
+        "longitude": 11.6053
+      },
+      "formatted_address": "Val d'Orcia (San Quirico d'Orcia), Toscana, Italy",
+      "distance_from_previous_km": 9.4,
+      "cumulative_distance_km": 1177.1
+    },
+    {
+      "sequence": 16,
+      "city_name": "Siena",
+      "coordinates": {
+        "latitude": 43.3182,
+        "longitude": 11.3306
+      },
+      "formatted_address": "Siena, Toscana, Italy",
+      "distance_from_previous_km": 36.5,
+      "cumulative_distance_km": 1213.6
+    },
+    {
+      "sequence": 17,
+      "city_name": "Cortona",
+      "coordinates": {
+        "latitude": 43.2741,
+        "longitude": 11.9878
+      },
+      "formatted_address": "Cortona, Toscana, Italy",
+      "distance_from_previous_km": 53.4,
+      "cumulative_distance_km": 1267.0
+    },
+    {
+      "sequence": 18,
+      "city_name": "Assisi",
+      "coordinates": {
+        "latitude": 43.0667,
+        "longitude": 12.6211
+      },
+      "formatted_address": "Assisi, Umbria, Italy",
+      "distance_from_previous_km": 56.3,
+      "cumulative_distance_km": 1323.3
+    }
+  ],
+  "total_distance_km": 1323.3
+}

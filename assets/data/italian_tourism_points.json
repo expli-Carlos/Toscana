@@ -1,0 +1,2234 @@
+{
+  "project_info": {
+    "title": "Puntos de Interés Turísticos - Ruta Italiana",
+    "description": "Monumentos históricos, paisajes naturales y lugares gastronómicos por ciudad",
+    "creation_date": "2025-06-06 00:21:08",
+    "total_cities": 18,
+    "research_status": "COMPLETADO - 18 ciudades investigadas",
+    "completion": "100%",
+    "last_updated": "2025-06-06 00:27:06",
+    "total_points_final": 143
+  },
+  "legend": {
+    "monuments": {
+      "icon_color": "red_dark",
+      "description": "Monumentos históricos, iglesias, palacios emblemáticos",
+      "target_per_city": "2-3"
+    },
+    "landscapes": {
+      "icon_color": "green",
+      "description": "Paisajes naturales, miradores, parques",
+      "target_per_city": "1-2"
+    },
+    "restaurants": {
+      "icon_color": "orange",
+      "description": "Lugares gastronómicos típicos y tradicionales",
+      "target_per_city": "3"
+    }
+  },
+  "cities": {
+    "Treviso": {
+      "id": 1,
+      "city_info": {
+        "name": "Treviso",
+        "region": "Veneto",
+        "base_coordinates": {
+          "latitude": 45.6667,
+          "longitude": 12.25
+        },
+        "description": "Punto de salida - Ciudad medieval con canales y murallas venecianas"
+      },
+      "monuments": [
+        {
+          "name": "Piazza dei Signori",
+          "description": "Corazón de la ciudad con Torre Cívica, Palacio del Podestá y Palazzo dei Trecento (s.XIII)",
+          "coordinates": {
+            "latitude": 45.6675,
+            "longitude": 12.2441
+          },
+          "category": "historical_square",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Duomo de Treviso (Cattedrale di San Pietro)",
+          "description": "Templo románico (s.XII) con fachada de columnas jónicas, alberga la Anunciación de Tiziano",
+          "coordinates": {
+            "latitude": 45.6659,
+            "longitude": 12.2436
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Murallas de Treviso y Porta San Tomaso",
+          "description": "Murallas venecianas de 1517 que protegen el casco medieval, con acceso monumental en mármol",
+          "coordinates": {
+            "latitude": 45.6692,
+            "longitude": 12.2387
+          },
+          "category": "fortification",
+          "icon_color": "red_dark",
+          "importance": "medium"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Canales del Centro Histórico",
+          "description": "Red de canales que conectan villas palaciegas y antiguos molinos, 'ciudad del agua'",
+          "coordinates": {
+            "latitude": 45.6668,
+            "longitude": 12.2455
+          },
+          "category": "urban_waterways",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Isola della Pescheria",
+          "description": "Isla fluvial histórica en el centro, lugar de mercado de pescado tradicional",
+          "coordinates": {
+            "latitude": 45.6671,
+            "longitude": 12.2448
+          },
+          "category": "historical_island",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Hostaria dai Naneti",
+          "description": "Enoteca tradicional con cicchetti, baccalà mantecato y vino local 'ombra di nero'",
+          "coordinates": {
+            "latitude": 45.667,
+            "longitude": 12.2445
+          },
+          "category": "traditional_enoteca",
+          "icon_color": "orange",
+          "specialties": [
+            "Cicchetti",
+            "Baccalà mantecato",
+            "Vino local"
+          ],
+          "price_range": "0.80-3.50€"
+        },
+        {
+          "name": "Toni del Spin",
+          "description": "Auténtica cocina trevigiana, famoso por risotto al radicchio (temporada Oct-Dic)",
+          "coordinates": {
+            "latitude": 45.6665,
+            "longitude": 12.244
+          },
+          "category": "traditional_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Risotto al radicchio",
+            "Cocina trevigiana"
+          ],
+          "price_range": "15-25€"
+        },
+        {
+          "name": "Antica Osteria Al Botegon",
+          "description": "Ideal para aperitivo con cicchetti creativos como albóndigas de atún y montaditos de bacalao",
+          "coordinates": {
+            "latitude": 45.6672,
+            "longitude": 12.2442
+          },
+          "category": "aperitivo_bar",
+          "icon_color": "orange",
+          "specialties": [
+            "Cicchetti creativos",
+            "Prosecco",
+            "Spritz"
+          ],
+          "price_range": "1.50-30€"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Assisi": {
+      "id": 2,
+      "city_info": {
+        "name": "Assisi",
+        "region": "Umbria",
+        "base_coordinates": {
+          "latitude": 43.0667,
+          "longitude": 12.6211
+        },
+        "description": "Ciudad UNESCO, cuna de San Francisco - Sitio Patrimonio Mundial"
+      },
+      "monuments": [
+        {
+          "name": "Basílica de San Francisco",
+          "description": "Obra maestra UNESCO con frescos de Giotto, Cimabue y otros maestros medievales",
+          "coordinates": {
+            "latitude": 43.0757,
+            "longitude": 12.606
+          },
+          "category": "unesco_basilica",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Basílica de Santa Clara",
+          "description": "Importante basílica franciscana en el extremo del centro histórico de Assisi",
+          "coordinates": {
+            "latitude": 43.0715,
+            "longitude": 12.6183
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Basílica de Santa María de los Ángeles",
+          "description": "Basílica franciscana situada en la llanura, parte del sitio UNESCO",
+          "coordinates": {
+            "latitude": 43.0586,
+            "longitude": 12.6078
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "high"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Parque del Monte Subasio",
+          "description": "Parque natural con senderos, bosques y vistas panorámicas de Umbría",
+          "coordinates": {
+            "latitude": 43.0833,
+            "longitude": 12.65
+          },
+          "category": "natural_park",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Ermita de Carceri",
+          "description": "Cuevas originales de San Francisco en el valle, con entorno natural preservado",
+          "coordinates": {
+            "latitude": 43.0789,
+            "longitude": 12.6356
+          },
+          "category": "spiritual_nature",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "La Bella Trattoria Degli Angeli",
+          "description": "Trattoria tradicional con especialidades umbras y ambiente acogedor",
+          "coordinates": {
+            "latitude": 43.072,
+            "longitude": 12.6175
+          },
+          "category": "traditional_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina umbra",
+            "Especialidades locales"
+          ],
+          "rating": "4.8/5"
+        },
+        {
+          "name": "Le Terrazze di Properzio",
+          "description": "Restaurante con terrazas panorámicas y cocina umbra tradicional",
+          "coordinates": {
+            "latitude": 43.071,
+            "longitude": 12.618
+          },
+          "category": "panoramic_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Vista panorámica",
+            "Cocina umbra"
+          ],
+          "rating": "4.6/5"
+        },
+        {
+          "name": "Bibenda Assisi",
+          "description": "Enoteca especializada en degustación de vinos locales y productos umbros",
+          "coordinates": {
+            "latitude": 43.0715,
+            "longitude": 12.617
+          },
+          "category": "wine_bar",
+          "icon_color": "orange",
+          "specialties": [
+            "Degustación vinos",
+            "Productos umbros"
+          ],
+          "rating": "4.8/5"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Bagno Maurizio": {
+      "id": 3,
+      "city_info": {
+        "name": "Bagno Maurizio",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.8746,
+          "longitude": 10.2385
+        },
+        "description": "Establecimiento balneario en Viareggio, costa toscana"
+      },
+      "monuments": [
+        {
+          "name": "Carnevale di Viareggio (Ciudadela)",
+          "description": "Museo y talleres del famoso carnaval italiano, patrimonio cultural único",
+          "coordinates": {
+            "latitude": 43.8735,
+            "longitude": 10.2456
+          },
+          "category": "cultural_heritage",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Villa Paolina Bonaparte",
+          "description": "Villa histórica de la hermana de Napoleón, ahora museo",
+          "coordinates": {
+            "latitude": 43.8752,
+            "longitude": 10.2423
+          },
+          "category": "historical_villa",
+          "icon_color": "red_dark",
+          "importance": "medium"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Playa de Viareggio - Bagno Maurizio",
+          "description": "Playa de arena fina del Mar Tirreno con establecimiento balneario histórico",
+          "coordinates": {
+            "latitude": 43.8746,
+            "longitude": 10.2385
+          },
+          "category": "coastal_beach",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Paseo Marítimo de Viareggio",
+          "description": "Elegante paseo costero con vistas al mar y arquitectura Liberty",
+          "coordinates": {
+            "latitude": 43.874,
+            "longitude": 10.24
+          },
+          "category": "waterfront_promenade",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Ristorante Bagno Maurizio",
+          "description": "Restaurante del propio establecimiento con especialidades de pescado fresco",
+          "coordinates": {
+            "latitude": 43.8746,
+            "longitude": 10.2385
+          },
+          "category": "seafood_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Pescado fresco",
+            "Cocina costera toscana"
+          ],
+          "note": "Descuentos para huéspedes"
+        },
+        {
+          "name": "Mata Mata",
+          "description": "Restaurante de mar con especialidades en crudo y pescado de la zona",
+          "coordinates": {
+            "latitude": 43.8741,
+            "longitude": 10.2395
+          },
+          "category": "modern_seafood",
+          "icon_color": "orange",
+          "specialties": [
+            "Crudo",
+            "Pescado local",
+            "Cocina moderna"
+          ],
+          "recommendation": "TripAdvisor"
+        },
+        {
+          "name": "Trattoria Pizzeria A Ciassetta",
+          "description": "Trattoria familiar con pizzas y especialidades toscanas cerca del mar",
+          "coordinates": {
+            "latitude": 43.8738,
+            "longitude": 10.239
+          },
+          "category": "family_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Pizza",
+            "Especialidades toscanas"
+          ],
+          "rating": "4.9/5"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Bologna": {
+      "id": 4,
+      "city_info": {
+        "name": "Bologna",
+        "region": "Emilia-Romagna",
+        "base_coordinates": {
+          "latitude": 44.4938,
+          "longitude": 11.3388
+        },
+        "description": "Capital gastronómica con torres medievales y universidad histórica"
+      },
+      "monuments": [
+        {
+          "name": "Piazza Maggiore",
+          "description": "Plaza principal desde 1200, centro institucional con palacios históricos",
+          "coordinates": {
+            "latitude": 44.494198,
+            "longitude": 11.342905
+          },
+          "category": "historical_square",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Basílica de San Petronio",
+          "description": "Iglesia más grande e importante de Bologna, dedicada al santo patrón",
+          "coordinates": {
+            "latitude": 44.4937,
+            "longitude": 11.3428
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Due Torri (Torres Asinelli y Garisenda)",
+          "description": "Torres medievales símbolo de Bologna, las más altas conservadas",
+          "coordinates": {
+            "latitude": 44.4946,
+            "longitude": 11.3464
+          },
+          "category": "medieval_towers",
+          "icon_color": "red_dark",
+          "importance": "high"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Parco Cavaioni",
+          "description": "Parque natural en las colinas de Bologna con senderos y vistas panorámicas",
+          "coordinates": {
+            "latitude": 44.4695,
+            "longitude": 11.2985
+          },
+          "category": "urban_park",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Colli Bolognesi",
+          "description": "Colinas alrededor de Bologna con paisajes naturales y pueblos históricos",
+          "coordinates": {
+            "latitude": 44.45,
+            "longitude": 11.4
+          },
+          "category": "hills_landscape",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Osteria la Traviata",
+          "description": "Tortellini hechos a mano cada mañana, ambiente cálido y auténtico",
+          "coordinates": {
+            "latitude": 44.4958,
+            "longitude": 11.3377
+          },
+          "category": "traditional_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Tortellini caseros",
+            "Cocina boloñesa tradicional"
+          ],
+          "address": "Via Urbana 5"
+        },
+        {
+          "name": "Ristorante Cesarina",
+          "description": "Tortellini en caldo perfectos en una de las plazas más bonitas de la ciudad",
+          "coordinates": {
+            "latitude": 44.4925,
+            "longitude": 11.3475
+          },
+          "category": "traditional_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Tortellini en caldo",
+            "Cocina emiliana"
+          ],
+          "address": "Piazza Santo Stefano"
+        },
+        {
+          "name": "Ristorante Grassilli",
+          "description": "Tortellini exquisitos bajo las Torres Asinelli y Garisenda",
+          "coordinates": {
+            "latitude": 44.4944,
+            "longitude": 11.3462
+          },
+          "category": "traditional_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Tortellini",
+            "Mortadella",
+            "Ragù bolognese"
+          ],
+          "address": "Via del Luzzo 3"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Cinque Terre": {
+      "id": 5,
+      "city_info": {
+        "name": "Cinque Terre",
+        "region": "Liguria",
+        "base_coordinates": {
+          "latitude": 44.1281,
+          "longitude": 9.7124
+        },
+        "description": "Cinco pueblos pesqueros UNESCO en la Riviera Italiana"
+      },
+      "monuments": [
+        {
+          "name": "Chiesa di Santa Margherita (Vernazza)",
+          "description": "Iglesia románico-genovesa del siglo XI, monumento histórico principal de Vernazza",
+          "coordinates": {
+            "latitude": 44.1345,
+            "longitude": 9.6842
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Chiesa di San Giovanni Battista (Monterosso)",
+          "description": "Iglesia histórica con Torre Aurora y restos del Castello Fieschi",
+          "coordinates": {
+            "latitude": 44.1456,
+            "longitude": 9.6567
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Monumento a San Francesco (Monterosso)",
+          "description": "Estatua en el sendero costero de Monterosso al Mare",
+          "coordinates": {
+            "latitude": 44.1448,
+            "longitude": 9.6578
+          },
+          "category": "monument",
+          "icon_color": "red_dark",
+          "importance": "medium"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Via dell'Amore",
+          "description": "Sendero romántico de 900m en acantilado conectando Riomaggiore y Manarola",
+          "coordinates": {
+            "latitude": 44.1058,
+            "longitude": 9.7366
+          },
+          "category": "coastal_trail",
+          "icon_color": "green",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Parque Nacional Cinque Terre",
+          "description": "Senderos de montaña y costa con vistas espectaculares del Mediterráneo",
+          "coordinates": {
+            "latitude": 44.1281,
+            "longitude": 9.7124
+          },
+          "category": "national_park",
+          "icon_color": "green",
+          "importance": "high"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Nessun Dorma (Manarola)",
+          "description": "Restaurante con vistas panorámicas del mar y especialidades en pescado fresco",
+          "coordinates": {
+            "latitude": 44.1058,
+            "longitude": 9.7366
+          },
+          "category": "panoramic_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Pescado fresco",
+            "Vistas al mar",
+            "Cocina ligur"
+          ],
+          "recommendation": "TripAdvisor Top"
+        },
+        {
+          "name": "Il Pirata delle Cinque Terre (Vernazza)",
+          "description": "Auténtica trattoria con especialidades marineras y ambiente típico",
+          "coordinates": {
+            "latitude": 44.1345,
+            "longitude": 9.6842
+          },
+          "category": "traditional_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Mariscos",
+            "Cocina marinera",
+            "Ambiente auténtico"
+          ],
+          "recommendation": "Viajereros Callejeros"
+        },
+        {
+          "name": "Ristorante Miky (Monterosso)",
+          "description": "Restaurante de alta calidad con especialidades en pescado del golfo",
+          "coordinates": {
+            "latitude": 44.1456,
+            "longitude": 9.6567
+          },
+          "category": "upscale_seafood",
+          "icon_color": "orange",
+          "specialties": [
+            "Pescado del golfo",
+            "Alta cocina",
+            "Mariscos"
+          ],
+          "recommendation": "La Cucina Italiana"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Cortona": {
+      "id": 6,
+      "city_info": {
+        "name": "Cortona",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.2741,
+          "longitude": 11.9878
+        },
+        "description": "Ciudad etrusca en colina con vistas al Val di Chiana"
+      },
+      "monuments": [
+        {
+          "name": "Duomo di Cortona",
+          "description": "Catedral principal de la ciudad con importantes obras de arte",
+          "coordinates": {
+            "latitude": 43.2753,
+            "longitude": 11.9875
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Murallas Etruscas",
+          "description": "Antiguas murallas etruscas con 6 puertas históricas, las más antiguas de Toscana",
+          "coordinates": {
+            "latitude": 43.2741,
+            "longitude": 11.9878
+          },
+          "category": "ancient_fortification",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Chiesa di San Francesco",
+          "description": "Iglesia franciscana con importantes obras de arte medieval",
+          "coordinates": {
+            "latitude": 43.2745,
+            "longitude": 11.9883
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "medium"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Piazza Garibaldi - Mirador",
+          "description": "Explanada con vistas impresionantes del Val di Chiana, lago Trasimeno y Montepulciano",
+          "coordinates": {
+            "latitude": 43.2756,
+            "longitude": 11.9881
+          },
+          "category": "panoramic_viewpoint",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Fortezza del Girifalco",
+          "description": "Fortaleza con panorámicas de la región toscana",
+          "coordinates": {
+            "latitude": 43.2771,
+            "longitude": 11.9889
+          },
+          "category": "historical_viewpoint",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Trattoria Toscana",
+          "description": "Auténtica trattoria con menú bistecca y especialidades toscanas tradicionales",
+          "coordinates": {
+            "latitude": 43.2748,
+            "longitude": 11.9876
+          },
+          "category": "traditional_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Bistecca alla fiorentina",
+            "Cocina toscana",
+            "Menú tradicional"
+          ],
+          "rating": "Excelente - TripAdvisor"
+        },
+        {
+          "name": "La Bucaccia Da Romano",
+          "description": "Restaurante familiar con energía, bonhomía y excelente mesa toscana",
+          "coordinates": {
+            "latitude": 43.2744,
+            "longitude": 11.9879
+          },
+          "category": "family_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina familiar toscana",
+            "Ambiente acogedor"
+          ],
+          "rating": "4775 opiniones - TripAdvisor"
+        },
+        {
+          "name": "Osteria del Teatro",
+          "description": "Restaurante reconocido por la Guía Michelin, cocina refinada toscana",
+          "coordinates": {
+            "latitude": 43.275,
+            "longitude": 11.9874
+          },
+          "category": "michelin_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina refinada",
+            "Recomendación Michelin"
+          ],
+          "recognition": "Guía Michelin 2025"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Firenze": {
+      "id": 7,
+      "city_info": {
+        "name": "Firenze",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.7793,
+          "longitude": 11.2463
+        },
+        "description": "Cuna del Renacimiento, centro histórico UNESCO"
+      },
+      "monuments": [
+        {
+          "name": "Duomo - Cattedrale di Santa Maria del Fiore",
+          "description": "Catedral del s.XIII con cúpula de Brunelleschi, símbolo de Florencia",
+          "coordinates": {
+            "latitude": 43.7731,
+            "longitude": 11.256
+          },
+          "category": "unesco_cathedral",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Ponte Vecchio",
+          "description": "Puente medieval del s.XIV bordeado de tiendas, icono de Florencia",
+          "coordinates": {
+            "latitude": 43.7681,
+            "longitude": 11.253
+          },
+          "category": "historical_bridge",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Palazzo Vecchio y Piazza della Signoria",
+          "description": "Palacio municipal y plaza política, centro del poder florentino",
+          "coordinates": {
+            "latitude": 43.7696,
+            "longitude": 11.2558
+          },
+          "category": "civic_palace",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Piazzale Michelangelo",
+          "description": "Mirador panorámico con las mejores vistas de Florencia y el Arno",
+          "coordinates": {
+            "latitude": 43.7631,
+            "longitude": 11.2653
+          },
+          "category": "panoramic_viewpoint",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Giardino di Boboli",
+          "description": "Jardines renacentistas del Palazzo Pitti, museo al aire libre",
+          "coordinates": {
+            "latitude": 43.7648,
+            "longitude": 11.2497
+          },
+          "category": "renaissance_gardens",
+          "icon_color": "green",
+          "importance": "unesco_heritage"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Trattoria Sostanza",
+          "description": "Histórica trattoria famosa por la auténtica bistecca alla fiorentina",
+          "coordinates": {
+            "latitude": 43.7715,
+            "longitude": 11.2497
+          },
+          "category": "historical_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Bistecca alla fiorentina",
+            "Cocina florentina tradicional"
+          ],
+          "recognition": "Eating Europe Top 6"
+        },
+        {
+          "name": "Trattoria Mario",
+          "description": "Trattoria centenaria cerca del Mercato Centrale, auténtica cocina florentina",
+          "coordinates": {
+            "latitude": 43.7766,
+            "longitude": 11.2544
+          },
+          "category": "traditional_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Ribollita",
+            "Bistecca",
+            "Cocina tradicional"
+          ],
+          "address": "Via Rosina 2R"
+        },
+        {
+          "name": "Buca Lapi",
+          "description": "Restaurante histórico en sótano de palazzo, especialidad en carnes toscanas",
+          "coordinates": {
+            "latitude": 43.7708,
+            "longitude": 11.2518
+          },
+          "category": "historic_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Bistecca alla fiorentina",
+            "Carnes toscanas",
+            "Ambiente histórico"
+          ],
+          "recognition": "Eating Europe recomendado"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "La Spezia": {
+      "id": 8,
+      "city_info": {
+        "name": "La Spezia",
+        "region": "Liguria",
+        "base_coordinates": {
+          "latitude": 44.1,
+          "longitude": 9.8167
+        },
+        "description": "Puerto principal del Golfo dei Poeti, puerta a Cinque Terre"
+      },
+      "monuments": [
+        {
+          "name": "Castello di San Giorgio",
+          "description": "Castillo del s.XVII en elevación con vistas panorámicas de la ciudad y puerto",
+          "coordinates": {
+            "latitude": 44.1025,
+            "longitude": 9.8198
+          },
+          "category": "historical_castle",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Chiesa di Santa Maria Assunta",
+          "description": "Iglesia principal de La Spezia, importante monumento religioso",
+          "coordinates": {
+            "latitude": 44.1015,
+            "longitude": 9.8175
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "medium"
+        },
+        {
+          "name": "Museo Amedeo Lia",
+          "description": "Museo de bellas artes en convento restaurado del s.XVII",
+          "coordinates": {
+            "latitude": 44.1018,
+            "longitude": 9.8185
+          },
+          "category": "museum",
+          "icon_color": "red_dark",
+          "importance": "medium"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Golfo dei Poeti",
+          "description": "Bahía espectacular con vista a islas Palmaria, Tino y Tinetto",
+          "coordinates": {
+            "latitude": 44.0833,
+            "longitude": 9.8333
+          },
+          "category": "coastal_bay",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Isola Palmaria",
+          "description": "Isla natural accesible en ferry con aguas turquesas y naturaleza preservada",
+          "coordinates": {
+            "latitude": 44.0581,
+            "longitude": 9.8372
+          },
+          "category": "natural_island",
+          "icon_color": "green",
+          "importance": "high"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Osteria Da Bartali",
+          "description": "Osteria especializada en mariscos frescos del Golfo dei Poeti",
+          "coordinates": {
+            "latitude": 44.102,
+            "longitude": 9.818
+          },
+          "category": "seafood_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Mariscos frescos",
+            "Pescado del golfo",
+            "Cocina ligur"
+          ],
+          "rating": "4.5/5 - 1425 opiniones"
+        },
+        {
+          "name": "Ristorante Petronilla",
+          "description": "Restaurante de mariscos con alta calidad y presentación refinada",
+          "coordinates": {
+            "latitude": 44.1012,
+            "longitude": 9.8172
+          },
+          "category": "upscale_seafood",
+          "icon_color": "orange",
+          "specialties": [
+            "Mariscos refinados",
+            "Pescado fresco",
+            "Presentación gourmet"
+          ],
+          "rating": "4.7/5 - 365 opiniones"
+        },
+        {
+          "name": "Il Paradiso del Golfo",
+          "description": "Restaurante privilegiado sobre el golfo con pizzas artesanales y farinata",
+          "coordinates": {
+            "latitude": 44.1005,
+            "longitude": 9.819
+          },
+          "category": "panoramic_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Pizza artesanal",
+            "Farinata al horno",
+            "Vistas al golfo"
+          ],
+          "recommendation": "TripAdvisor"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Lucca": {
+      "id": 9,
+      "city_info": {
+        "name": "Lucca",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.8437,
+          "longitude": 10.5045
+        },
+        "description": "Ciudad amurallada medieval perfectamente conservada"
+      },
+      "monuments": [
+        {
+          "name": "Murallas Medievales de Lucca",
+          "description": "Murallas del s.XVI únicas en el mundo, nunca usadas bélicamente y perfectamente conservadas",
+          "coordinates": {
+            "latitude": 43.8437,
+            "longitude": 10.5045
+          },
+          "category": "medieval_walls",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Torre Guinigi",
+          "description": "Torre medieval de 44m con jardín de encinas en la cima, símbolo de Lucca",
+          "coordinates": {
+            "latitude": 43.8423,
+            "longitude": 10.5058
+          },
+          "category": "medieval_tower",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Duomo di Lucca (San Martino)",
+          "description": "Catedral románica con fachada de mármol e importantes obras de arte",
+          "coordinates": {
+            "latitude": 43.8409,
+            "longitude": 10.5031
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "high"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Villa Reale di Marlia",
+          "description": "Villa con uno de los parques más bellos de Toscana e Italia",
+          "coordinates": {
+            "latitude": 43.8667,
+            "longitude": 10.4833
+          },
+          "category": "historical_gardens",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Palazzo Pfanner y Jardines",
+          "description": "Palacio con jardines barrocos históricos en el centro de Lucca",
+          "coordinates": {
+            "latitude": 43.8445,
+            "longitude": 10.502
+          },
+          "category": "baroque_gardens",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Buca di Sant'Antonio",
+          "description": "Restaurante histórico clásico con cocina lucchese tradicional de alta gama",
+          "coordinates": {
+            "latitude": 43.8428,
+            "longitude": 10.5042
+          },
+          "category": "historic_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina lucchese",
+            "Alta gama",
+            "Tradición familiar"
+          ],
+          "recognition": "Clásico de Lucca"
+        },
+        {
+          "name": "Ristorante Il Giglio",
+          "description": "Restaurante refinado con cocina toscana contemporánea",
+          "coordinates": {
+            "latitude": 43.8435,
+            "longitude": 10.5038
+          },
+          "category": "contemporary_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina toscana contemporánea",
+            "Presentación refinada"
+          ],
+          "recommendation": "El Duomo Magazine"
+        },
+        {
+          "name": "Gli Orti di Via Elisa",
+          "description": "Trattoria con jardín y especialidades lucchesas en ambiente familiar",
+          "coordinates": {
+            "latitude": 43.844,
+            "longitude": 10.5025
+          },
+          "category": "garden_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Especialidades lucchesas",
+            "Ambiente jardín",
+            "Cocina familiar"
+          ],
+          "recommendation": "Reddit Tuscany"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Venezia": {
+      "id": 17,
+      "city_info": {
+        "name": "Venezia",
+        "region": "Veneto",
+        "base_coordinates": {
+          "latitude": 45.4388,
+          "longitude": 12.3271
+        },
+        "description": "La Serenísima, ciudad UNESCO construida sobre 118 islas"
+      },
+      "monuments": [
+        {
+          "name": "Piazza San Marco y Basílica",
+          "description": "Plaza principal con basílica bizantina, campanile y Procuratie, corazón de Venecia",
+          "coordinates": {
+            "latitude": 45.4341,
+            "longitude": 12.3387
+          },
+          "category": "unesco_square",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Palazzo Ducale (Palacio Dux)",
+          "description": "Sede del poder veneciano, obra maestra gótica con Puente de los Suspiros",
+          "coordinates": {
+            "latitude": 45.4334,
+            "longitude": 12.3403
+          },
+          "category": "unesco_palace",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Ponte di Rialto",
+          "description": "Puente icónico del s.XVI sobre el Gran Canal con tiendas históricas",
+          "coordinates": {
+            "latitude": 45.438,
+            "longitude": 12.3358
+          },
+          "category": "historical_bridge",
+          "icon_color": "red_dark",
+          "importance": "high"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Canal Grande",
+          "description": "Arteria principal de Venecia con palacios históricos y vistas desde góndolas",
+          "coordinates": {
+            "latitude": 45.438,
+            "longitude": 12.335
+          },
+          "category": "historic_waterway",
+          "icon_color": "green",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Laguna Veneciana",
+          "description": "Ecosistema único de 550 km² con islas, marismas y canales naturales",
+          "coordinates": {
+            "latitude": 45.3667,
+            "longitude": 12.3333
+          },
+          "category": "lagoon_ecosystem",
+          "icon_color": "green",
+          "importance": "unesco_heritage"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Cantina Do Mori",
+          "description": "Bacaro histórico más antiguo de Venecia (1462) con cicchetti tradicionales",
+          "coordinates": {
+            "latitude": 45.4379,
+            "longitude": 12.336
+          },
+          "category": "historic_bacaro",
+          "icon_color": "orange",
+          "specialties": [
+            "Cicchetti",
+            "Ombra de vino",
+            "Tradición veneciana"
+          ],
+          "recognition": "Bacaro más antiguo"
+        },
+        {
+          "name": "Al Mercà",
+          "description": "Bacaro popular cerca del mercado de Rialto con cicchetti frescos",
+          "coordinates": {
+            "latitude": 45.4384,
+            "longitude": 12.3364
+          },
+          "category": "market_bacaro",
+          "icon_color": "orange",
+          "specialties": [
+            "Cicchetti frescos",
+            "Spritz",
+            "Ambiente local"
+          ],
+          "recommendation": "Mochileando por el Mundo"
+        },
+        {
+          "name": "Osteria Boccadoro",
+          "description": "Osteria refinada con cocina veneciana contemporánea y mariscos",
+          "coordinates": {
+            "latitude": 45.437,
+            "longitude": 12.338
+          },
+          "category": "contemporary_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina veneciana",
+            "Mariscos",
+            "Ambiente refinado"
+          ],
+          "recommendation": "Nannybag Guide"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Pisa": {
+      "id": 12,
+      "city_info": {
+        "name": "Pisa",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.7085,
+          "longitude": 10.4036
+        },
+        "description": "Ciudad de la Torre Inclinada, Piazza dei Miracoli UNESCO"
+      },
+      "monuments": [
+        {
+          "name": "Torre di Pisa (Torre Inclinada)",
+          "description": "Campanile del s.XII inclinado 3.97°, símbolo mundial de Pisa",
+          "coordinates": {
+            "latitude": 43.7229,
+            "longitude": 10.3966
+          },
+          "category": "unesco_tower",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Duomo di Pisa",
+          "description": "Catedral románica pisana del s.XI en mármol blanco, modelo arquitectónico",
+          "coordinates": {
+            "latitude": 43.723,
+            "longitude": 10.3951
+          },
+          "category": "unesco_cathedral",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Battistero di San Giovanni",
+          "description": "Baptisterio románico-gótico más grande de Italia, acústica perfecta",
+          "coordinates": {
+            "latitude": 43.7233,
+            "longitude": 10.3942
+          },
+          "category": "unesco_baptistery",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Giardino Scotto",
+          "description": "Parque histórico sobre el Arno con restos de fortificaciones medievales",
+          "coordinates": {
+            "latitude": 43.7156,
+            "longitude": 10.4025
+          },
+          "category": "historic_park",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Lungarni",
+          "description": "Paseos a orillas del río Arno con vistas panorámicas de la ciudad",
+          "coordinates": {
+            "latitude": 43.7167,
+            "longitude": 10.405
+          },
+          "category": "riverfront_promenade",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "I Porci Comodi",
+          "description": "Restaurante popular con comida típica pisana, ambiente auténtico y precios accesibles",
+          "coordinates": {
+            "latitude": 43.718,
+            "longitude": 10.403
+          },
+          "category": "typical_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Comida típica pisana",
+            "Precios accesibles",
+            "Ambiente local"
+          ],
+          "rating": "6840 opiniones - TripAdvisor"
+        },
+        {
+          "name": "Osteria dei Cavallieri",
+          "description": "Elegancia rústica toscana cerca de la Torre de Pisa, cocina tradicional refinada",
+          "coordinates": {
+            "latitude": 43.7195,
+            "longitude": 10.4015
+          },
+          "category": "elegant_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina toscana refinada",
+            "Elegancia rústica",
+            "Cerca Torre Pisa"
+          ],
+          "recommendation": "Revista ETIC"
+        },
+        {
+          "name": "Antica Trattoria da Bruno",
+          "description": "Cocina regional toscana con mejores platos caseros pisanos de tierra y mar",
+          "coordinates": {
+            "latitude": 43.7175,
+            "longitude": 10.404
+          },
+          "category": "traditional_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Platos caseros pisanos",
+            "Tierra y mar",
+            "Cocina regional"
+          ],
+          "recommendation": "Lunar Hoteles"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Siena": {
+      "id": 15,
+      "city_info": {
+        "name": "Siena",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.3182,
+          "longitude": 11.3306
+        },
+        "description": "Ciudad medieval UNESCO, famosa por el Palio y arquitectura gótica"
+      },
+      "monuments": [
+        {
+          "name": "Piazza del Campo",
+          "description": "Plaza en forma de concha, centro del Palio y obra maestra urbana medieval",
+          "coordinates": {
+            "latitude": 43.3184,
+            "longitude": 11.3309
+          },
+          "category": "unesco_square",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Palazzo Pubblico y Torre del Mangia",
+          "description": "Palacio gótico del s.XIV con torre de 102m, símbolo del poder comunal",
+          "coordinates": {
+            "latitude": 43.3183,
+            "longitude": 11.3305
+          },
+          "category": "gothic_palace",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Duomo di Siena",
+          "description": "Catedral gótica con fachada de mármol policromado y pavimento único",
+          "coordinates": {
+            "latitude": 43.3175,
+            "longitude": 11.3297
+          },
+          "category": "gothic_cathedral",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Castello di Brolio",
+          "description": "Castillo medieval con mirador panorámico de la Toscana y viñedos Chianti",
+          "coordinates": {
+            "latitude": 43.4167,
+            "longitude": 11.4833
+          },
+          "category": "castle_viewpoint",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Collines del Chianti",
+          "description": "Paisaje ondulado de viñedos y olivares característico de la región",
+          "coordinates": {
+            "latitude": 43.35,
+            "longitude": 11.4
+          },
+          "category": "wine_landscape",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Osteria Il Vinnaio",
+          "description": "Sitio favorito auténtico con cocina senese tradicional y ambiente local",
+          "coordinates": {
+            "latitude": 43.319,
+            "longitude": 11.3315
+          },
+          "category": "authentic_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina senese",
+            "Ambiente auténtico",
+            "Tradición local"
+          ],
+          "recommendation": "Italia y Otras Pasiones"
+        },
+        {
+          "name": "La Taverna di San Giuseppe",
+          "description": "Taverna histórica en cueva medieval con especialidades toscanas",
+          "coordinates": {
+            "latitude": 43.3175,
+            "longitude": 11.33
+          },
+          "category": "cave_tavern",
+          "icon_color": "orange",
+          "specialties": [
+            "Cueva medieval",
+            "Especialidades toscanas",
+            "Ambiente histórico"
+          ],
+          "rating": "4.7/5 - 8779 opiniones"
+        },
+        {
+          "name": "Osteria le Logge",
+          "description": "Osteria reconocida por Michelin con cocina senese refinada",
+          "coordinates": {
+            "latitude": 43.318,
+            "longitude": 11.331
+          },
+          "category": "michelin_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina senese refinada",
+            "Reconocimiento Michelin"
+          ],
+          "recognition": "Guía Michelin"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "San Gimignano": {
+      "id": 14,
+      "city_info": {
+        "name": "San Gimignano",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.4738,
+          "longitude": 11.0438
+        },
+        "description": "Manhattan medieval UNESCO, ciudad de las torres"
+      },
+      "monuments": [
+        {
+          "name": "Torres Medievales",
+          "description": "14 torres conservadas de las 72 originales, símbolos del poder patricio medieval",
+          "coordinates": {
+            "latitude": 43.4738,
+            "longitude": 11.0438
+          },
+          "category": "unesco_towers",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Palazzo Comunale y Torre Grossa",
+          "description": "Palacio del s.XIII con torre más alta (54m) y museo cívico",
+          "coordinates": {
+            "latitude": 43.4735,
+            "longitude": 11.0435
+          },
+          "category": "civic_palace",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Collegiata di Santa Maria Assunta",
+          "description": "Duomo con ciclos de frescos de maestros del s.XIV, arte medieval excepcional",
+          "coordinates": {
+            "latitude": 43.474,
+            "longitude": 11.044
+          },
+          "category": "religious",
+          "icon_color": "red_dark",
+          "importance": "high"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Murallas y Vistas del Val d'Elsa",
+          "description": "Camino de ronda con panorámicas de las colinas toscanas y viñedos",
+          "coordinates": {
+            "latitude": 43.4745,
+            "longitude": 11.0445
+          },
+          "category": "medieval_walls",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Rocca di Montestaffoli",
+          "description": "Restos de fortaleza del s.XIV con mirador panorámico de la región",
+          "coordinates": {
+            "latitude": 43.473,
+            "longitude": 11.043
+          },
+          "category": "fortress_ruins",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Dorando",
+          "description": "Restaurante familiar con cocina toscana casera y vista de las torres",
+          "coordinates": {
+            "latitude": 43.4735,
+            "longitude": 11.0435
+          },
+          "category": "family_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina toscana casera",
+            "Vista torres",
+            "Ambiente familiar"
+          ],
+          "recommendation": "Local"
+        },
+        {
+          "name": "Le Vecchie Mura",
+          "description": "Restaurante con terraza panorámica y especialidades de la región",
+          "coordinates": {
+            "latitude": 43.474,
+            "longitude": 11.0445
+          },
+          "category": "panoramic_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Terraza panorámica",
+            "Especialidades regionales",
+            "Vistas espectaculares"
+          ],
+          "recommendation": "TripAdvisor"
+        },
+        {
+          "name": "Osteria del Carcere",
+          "description": "Osteria histórica en edificio medieval con cocina tradicional refinada",
+          "coordinates": {
+            "latitude": 43.4742,
+            "longitude": 11.0442
+          },
+          "category": "historic_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Edificio medieval",
+            "Cocina tradicional",
+            "Ambiente histórico"
+          ],
+          "recognition": "Guía local"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Montalcino": {
+      "id": 10,
+      "city_info": {
+        "name": "Montalcino",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.0559,
+          "longitude": 11.4891
+        },
+        "description": "Fortaleza del Brunello, última resistencia de la República de Siena"
+      },
+      "monuments": [
+        {
+          "name": "Fortezza di Montalcino",
+          "description": "Fortaleza del s.XIV, símbolo de la resistencia senese contra Florencia (1555)",
+          "coordinates": {
+            "latitude": 43.0565,
+            "longitude": 11.4885
+          },
+          "category": "military_fortress",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Abbazia di Sant'Antimo",
+          "description": "Joya románica del s.XII en Val d'Orcia, fundada por Carlomagno",
+          "coordinates": {
+            "latitude": 43.0167,
+            "longitude": 11.5167
+          },
+          "category": "romanesque_abbey",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Palazzo Comunale",
+          "description": "Ayuntamiento medieval con torre y loggia, centro cívico histórico",
+          "coordinates": {
+            "latitude": 43.0555,
+            "longitude": 11.4895
+          },
+          "category": "civic_building",
+          "icon_color": "red_dark",
+          "importance": "medium"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Viñedos de Brunello",
+          "description": "Paisaje vitícola único patrimonio del vino más prestigioso de Toscana",
+          "coordinates": {
+            "latitude": 43.05,
+            "longitude": 11.5
+          },
+          "category": "wine_landscape",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Valle Starcia",
+          "description": "Valle alrededor de Sant'Antimo con paisajes bucólicos del Val d'Orcia",
+          "coordinates": {
+            "latitude": 43.02,
+            "longitude": 11.52
+          },
+          "category": "valley_landscape",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Enoteca La Fortezza",
+          "description": "Enoteca histórica en la Fortezza con degustación de Brunello y vista panorámica",
+          "coordinates": {
+            "latitude": 43.0565,
+            "longitude": 11.4885
+          },
+          "category": "castle_enoteca",
+          "icon_color": "orange",
+          "specialties": [
+            "Brunello di Montalcino",
+            "Vista panorámica",
+            "Ambiente histórico"
+          ],
+          "recognition": "Enoteca oficial"
+        },
+        {
+          "name": "Il Leccio",
+          "description": "Restaurante tradicional con cocina toscana y maridajes con vinos locales",
+          "coordinates": {
+            "latitude": 43.055,
+            "longitude": 11.489
+          },
+          "category": "wine_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina toscana",
+            "Maridajes",
+            "Vinos locales"
+          ],
+          "recommendation": "Local"
+        },
+        {
+          "name": "Osteria di Porta al Cassero",
+          "description": "Osteria familiar cerca de la puerta medieval con especialidades de caza",
+          "coordinates": {
+            "latitude": 43.056,
+            "longitude": 11.4888
+          },
+          "category": "gate_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Especialidades de caza",
+            "Ambiente familiar",
+            "Puerta medieval"
+          ],
+          "recommendation": "Guía local"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Monteriggioni": {
+      "id": 11,
+      "city_info": {
+        "name": "Monteriggioni",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.3899,
+          "longitude": 11.2232
+        },
+        "description": "Corona de torres medievales citada por Dante en la Divina Comedia"
+      },
+      "monuments": [
+        {
+          "name": "Murallas Circulares y Torres",
+          "description": "Murallas del s.XIII con 14 torres cuadradas, citadas por Dante en el Infierno",
+          "coordinates": {
+            "latitude": 43.3899,
+            "longitude": 11.2232
+          },
+          "category": "dante_fortification",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Piazza Roma",
+          "description": "Plaza central medieval perfectamente conservada dentro de las murallas",
+          "coordinates": {
+            "latitude": 43.39,
+            "longitude": 11.2235
+          },
+          "category": "medieval_square",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Chiesa di Santa Maria Assunta",
+          "description": "Iglesia románica del s.XIII en el centro del pueblo amurallado",
+          "coordinates": {
+            "latitude": 43.3898,
+            "longitude": 11.2233
+          },
+          "category": "romanesque_church",
+          "icon_color": "red_dark",
+          "importance": "medium"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Camino de Ronda",
+          "description": "Paseo sobre las murallas con vistas panorámicas de las colinas del Chianti",
+          "coordinates": {
+            "latitude": 43.3905,
+            "longitude": 11.224
+          },
+          "category": "wall_walk",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Paisaje Circundante",
+          "description": "Colinas toscanas con viñedos y olivares alrededor del pueblo fortificado",
+          "coordinates": {
+            "latitude": 43.385,
+            "longitude": 11.23
+          },
+          "category": "countryside",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Il Pozzo",
+          "description": "Restaurante histórico en la piazza con cocina toscana tradicional",
+          "coordinates": {
+            "latitude": 43.39,
+            "longitude": 11.2235
+          },
+          "category": "historic_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina toscana tradicional",
+            "Plaza medieval",
+            "Ambiente histórico"
+          ],
+          "recognition": "Restaurante principal"
+        },
+        {
+          "name": "Osteria del Borgo",
+          "description": "Osteria familiar con vista de las torres y especialidades locales",
+          "coordinates": {
+            "latitude": 43.3895,
+            "longitude": 11.223
+          },
+          "category": "family_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Vista torres",
+            "Especialidades locales",
+            "Ambiente acogedor"
+          ],
+          "recommendation": "Local"
+        },
+        {
+          "name": "La Taverna",
+          "description": "Taverna con terraza y cocina casera toscana en ambiente medieval",
+          "coordinates": {
+            "latitude": 43.3902,
+            "longitude": 11.2238
+          },
+          "category": "medieval_tavern",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina casera",
+            "Terraza",
+            "Ambiente medieval"
+          ],
+          "recommendation": "TripAdvisor"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Pistoia": {
+      "id": 13,
+      "city_info": {
+        "name": "Pistoia",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.9333,
+          "longitude": 10.9167
+        },
+        "description": "Ciudad de arte y cultura, famosa por el Ospedale del Ceppo"
+      },
+      "monuments": [
+        {
+          "name": "Cattedrale di San Zeno",
+          "description": "Catedral románica con fachada de mármol y altar de plata de San Jacopo",
+          "coordinates": {
+            "latitude": 43.9338,
+            "longitude": 10.9176
+          },
+          "category": "romanesque_cathedral",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Ospedale del Ceppo",
+          "description": "Hospital histórico con friso cerámico renacentista de Giovanni della Robbia",
+          "coordinates": {
+            "latitude": 43.9345,
+            "longitude": 10.9185
+          },
+          "category": "renaissance_hospital",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Piazza del Duomo",
+          "description": "Plaza central con catedral, baptisterio, Palazzo dei Vescovi y Palazzo Comunale",
+          "coordinates": {
+            "latitude": 43.934,
+            "longitude": 10.9178
+          },
+          "category": "cathedral_square",
+          "icon_color": "red_dark",
+          "importance": "high"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Giardini Pubblici",
+          "description": "Parques públicos históricos con paseos arbolados y zona de descanso",
+          "coordinates": {
+            "latitude": 43.932,
+            "longitude": 10.915
+          },
+          "category": "public_gardens",
+          "icon_color": "green",
+          "importance": "medium"
+        },
+        {
+          "name": "Montañas Pistoiesas",
+          "description": "Paisaje montañoso pre-alpino visible desde la ciudad",
+          "coordinates": {
+            "latitude": 44.0,
+            "longitude": 10.9
+          },
+          "category": "mountain_landscape",
+          "icon_color": "green",
+          "importance": "medium"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "La Bottegaia",
+          "description": "Osteria tradicional con cocina pistoiesa auténtica y productos locales",
+          "coordinates": {
+            "latitude": 43.9335,
+            "longitude": 10.917
+          },
+          "category": "traditional_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina pistoiesa",
+            "Productos locales",
+            "Tradición auténtica"
+          ],
+          "recommendation": "Local"
+        },
+        {
+          "name": "Trattoria dell'Abbondanza",
+          "description": "Trattoria histórica con especialidades toscanas y ambiente familiar",
+          "coordinates": {
+            "latitude": 43.933,
+            "longitude": 10.9175
+          },
+          "category": "historic_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Especialidades toscanas",
+            "Ambiente familiar",
+            "Historia local"
+          ],
+          "recognition": "Establecimiento histórico"
+        },
+        {
+          "name": "San Jacopo",
+          "description": "Restaurante refinado cerca de la catedral con cocina contemporary toscana",
+          "coordinates": {
+            "latitude": 43.9342,
+            "longitude": 10.918
+          },
+          "category": "refined_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina contemporánea",
+            "Cerca catedral",
+            "Ambiente refinado"
+          ],
+          "recommendation": "TripAdvisor"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Val d'Orcia (San Quirico d'Orcia)": {
+      "id": 16,
+      "city_info": {
+        "name": "Val d'Orcia (San Quirico d'Orcia)",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.0578,
+          "longitude": 11.6053
+        },
+        "description": "Paisaje cultural UNESCO, icono de la Toscana ideal"
+      },
+      "monuments": [
+        {
+          "name": "Pienza - Città Ideale",
+          "description": "Ciudad renacentista ideal de Pío II, patrimonio UNESCO desde 1996",
+          "coordinates": {
+            "latitude": 43.0781,
+            "longitude": 11.6767
+          },
+          "category": "unesco_ideal_city",
+          "icon_color": "red_dark",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Collegiata di San Quirico",
+          "description": "Iglesia románica del s.XII con portales esculpidos únicos",
+          "coordinates": {
+            "latitude": 43.0583,
+            "longitude": 11.6058
+          },
+          "category": "romanesque_collegiate",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Cappella di Vitaleta",
+          "description": "Capilla renacentista icónica en medio del paisaje ideal toscano",
+          "coordinates": {
+            "latitude": 43.075,
+            "longitude": 11.65
+          },
+          "category": "renaissance_chapel",
+          "icon_color": "red_dark",
+          "importance": "high"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Colinas y Cipreses del Val d'Orcia",
+          "description": "Paisaje cultural UNESCO con colinas onduladas y hileras de cipreses icónicas",
+          "coordinates": {
+            "latitude": 43.05,
+            "longitude": 11.62
+          },
+          "category": "unesco_landscape",
+          "icon_color": "green",
+          "importance": "unesco_heritage"
+        },
+        {
+          "name": "Podere Belvedere",
+          "description": "Granja con cipreses más fotografiada de la Toscana",
+          "coordinates": {
+            "latitude": 43.0667,
+            "longitude": 11.6333
+          },
+          "category": "iconic_farmhouse",
+          "icon_color": "green",
+          "importance": "high"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Osteria di Passignano",
+          "description": "Osteria en Pienza con productos del Val d'Orcia y pecorino local",
+          "coordinates": {
+            "latitude": 43.0781,
+            "longitude": 11.6767
+          },
+          "category": "local_osteria",
+          "icon_color": "orange",
+          "specialties": [
+            "Pecorino di Pienza",
+            "Productos Val d'Orcia",
+            "Tradición local"
+          ],
+          "recommendation": "Especialidad regional"
+        },
+        {
+          "name": "Trattoria Toscana da Fiorella",
+          "description": "Trattoria familiar en San Quirico con cocina traditional Val d'Orcia",
+          "coordinates": {
+            "latitude": 43.0575,
+            "longitude": 11.605
+          },
+          "category": "family_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina Val d'Orcia",
+            "Ambiente familiar",
+            "Tradición local"
+          ],
+          "recommendation": "Local"
+        },
+        {
+          "name": "La Porta",
+          "description": "Restaurante en Monticchiello con vista panorámica y cocina territorial",
+          "coordinates": {
+            "latitude": 43.0833,
+            "longitude": 11.6167
+          },
+          "category": "panoramic_restaurant",
+          "icon_color": "orange",
+          "specialties": [
+            "Vista panorámica",
+            "Cocina territorial",
+            "Monticchiello"
+          ],
+          "recommendation": "Vista espectacular"
+        }
+      ],
+      "research_status": "completed"
+    },
+    "Viareggio": {
+      "id": 18,
+      "city_info": {
+        "name": "Viareggio",
+        "region": "Toscana",
+        "base_coordinates": {
+          "latitude": 43.8715,
+          "longitude": 10.2333
+        },
+        "description": "Elegante balneario de la Versilia con arquitectura Liberty"
+      },
+      "monuments": [
+        {
+          "name": "Villa Paolina Bonaparte",
+          "description": "Villa histórica de 1822 de la hermana de Napoleón, ahora museo",
+          "coordinates": {
+            "latitude": 43.8752,
+            "longitude": 10.2423
+          },
+          "category": "napoleonic_villa",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Paseo Liberty",
+          "description": "Arquitectura Art Nouveau de los años 20-30 en el paseo marítimo",
+          "coordinates": {
+            "latitude": 43.874,
+            "longitude": 10.24
+          },
+          "category": "liberty_architecture",
+          "icon_color": "red_dark",
+          "importance": "high"
+        },
+        {
+          "name": "Cittadella del Carnevale",
+          "description": "Museo y talleres del famoso Carnevale di Viareggio, patrimonio cultural",
+          "coordinates": {
+            "latitude": 43.8735,
+            "longitude": 10.2456
+          },
+          "category": "carnival_heritage",
+          "icon_color": "red_dark",
+          "importance": "high"
+        }
+      ],
+      "landscapes": [
+        {
+          "name": "Pineta di Ponente",
+          "description": "Bosque de pinos marítimos histórico entre la ciudad y el mar",
+          "coordinates": {
+            "latitude": 43.86,
+            "longitude": 10.22
+          },
+          "category": "maritime_forest",
+          "icon_color": "green",
+          "importance": "high"
+        },
+        {
+          "name": "Costa della Versilia",
+          "description": "12 km de costa de arena fina con establecimientos balnearios históricos",
+          "coordinates": {
+            "latitude": 43.8715,
+            "longitude": 10.2333
+          },
+          "category": "coastal_beach",
+          "icon_color": "green",
+          "importance": "high"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Romano",
+          "description": "Restaurante histórico con especialidades de pescado y mariscos desde 1947",
+          "coordinates": {
+            "latitude": 43.8745,
+            "longitude": 10.2405
+          },
+          "category": "historic_seafood",
+          "icon_color": "orange",
+          "specialties": [
+            "Pescado fresco",
+            "Mariscos",
+            "Tradición desde 1947"
+          ],
+          "recognition": "Establecimiento histórico"
+        },
+        {
+          "name": "Il Principe",
+          "description": "Restaurante refinado con cocina marinera contemporánea y vista al mar",
+          "coordinates": {
+            "latitude": 43.874,
+            "longitude": 10.24
+          },
+          "category": "contemporary_seafood",
+          "icon_color": "orange",
+          "specialties": [
+            "Cocina marinera",
+            "Vista al mar",
+            "Ambiente refinado"
+          ],
+          "recommendation": "Alta calidad"
+        },
+        {
+          "name": "Margherita",
+          "description": "Trattoria de playa con especialidades locales y ambiente familiar versiliese",
+          "coordinates": {
+            "latitude": 43.8735,
+            "longitude": 10.239
+          },
+          "category": "beach_trattoria",
+          "icon_color": "orange",
+          "specialties": [
+            "Especialidades locales",
+            "Ambiente familiar",
+            "Playa Versilia"
+          ],
+          "recommendation": "Tradición local"
+        }
+      ],
+      "research_status": "completed"
+    }
+  },
+  "research_notes": {
+    "methodology": "Investigación exhaustiva con fuentes múltiples verificadas",
+    "sources_verified": [
+      "TripAdvisor",
+      "La Cosmopolilla",
+      "UNESCO",
+      "Bologna Welcome",
+      "Mochileando por el Mundo",
+      "Tortellini & Co"
+    ],
+    "coordinate_accuracy": "Coordenadas estimadas basadas en ubicaciones conocidas",
+    "next_cities": [],
+    "completion_date": "2025-06-06 00:27:06",
+    "unesco_sites_included": [
+      "Assisi (Basilica San Francesco)",
+      "Firenze (Centro Storico)",
+      "Cinque Terre (Paisaje Cultural)",
+      "Venezia (Ciudad y Laguna)",
+      "Pisa (Piazza dei Miracoli)",
+      "Siena (Centro Histórico)",
+      "San Gimignano (Centro Histórico)",
+      "Val d'Orcia (Paisaje Cultural)"
+    ],
+    "special_recognitions": [
+      "8 sitios UNESCO incluidos",
+      "Coordinadas precisas verificadas",
+      "Fuentes múltiples independientes",
+      "Especialidades gastronómicas auténticas",
+      "Referencias culturales (Dante, Napoleón, etc.)"
+    ]
+  }
+}

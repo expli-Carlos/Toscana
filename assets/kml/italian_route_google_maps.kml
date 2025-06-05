@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta Italiana - Google Maps</name>
+    <description><![CDATA[<h2>Ruta Turística Italiana Completa</h2>
+        <p><b>Total de ciudades:</b> 18</p>
+        <p><b>Puntos de interés:</b> 143</p>
+        <p><b>Distancia total:</b> 1323.3 km</p>
+        <hr>
+        <h3>Leyenda de colores:</h3>
+        <ul>
+            <li>🔴 Monumentos históricos (Rojo oscuro)</li>
+            <li>🟢 Paisajes naturales (Verde)</li>
+            <li>🟠 Lugares gastronómicos (Naranja)</li>
+            <li>📍 Ciudades principales (Azul)</li>
+        </ul>]]></description>
+    <Style id="monuments_style">
+      <IconStyle>
+        <color>ff00008B</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00008B</color>
+        <scale>1.0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="landscapes_style">
+      <IconStyle>
+        <color>ff008000</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff008000</color>
+        <scale>1.0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="restaurants_style">
+      <IconStyle>
+        <color>ff008CFF</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff008CFF</color>
+        <scale>1.0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="cities_style">
+      <IconStyle>
+        <color>ffff0000</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffff0000</color>
+        <scale>1.0</scale>
+      </LabelStyle>
+    </Style>
+    <Placemark>
+      <name>Ruta Italiana Optimizada</name>
+      <description><![CDATA[<h3>Ruta Completa por Italia</h3>
+        <p><b>Distancia total:</b> 1323.3 km</p>
+        <p><b>Ciudades:</b> 18</p>
+        <p><b>Desde:</b> Treviso</p>
+        <p><b>Hasta:</b> Assisi</p>]]></description>
+      <Style>
+        <LineStyle>
+          <color>ff0000ff</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>12.25,45.6667,0 11.3388,44.4938,0 12.3271,45.4388,0 10.9167,43.9333,0 11.0438,43.4738,0 10.5045,43.8437,0 11.2232,43.3899,0 10.4036,43.7085,0 10.2385,43.8746,0 11.2463,43.7793,0 10.2333,43.8715,0 9.7124,44.1281,0 9.8167,44.1,0 11.4891,43.0559,0 11.6053,43.0578,0 11.3306,43.3182,0 11.9878,43.2741,0 12.6211,43.0667,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Folder>
+      <name>Ciudades de la Ruta</name>
+      <Placemark>
+        <name>1. Treviso</name>
+        <description><![CDATA[<h3>Treviso</h3>
+            <p><b>Secuencia:</b> 1 de 18</p>
+            <p><b>Ubicación:</b> Treviso, Veneto, Italy</p>
+            <p><b>Distancia desde anterior:</b> 0.0 km</p>
+            <p><b>Distancia acumulada:</b> 0.0 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>12.25,45.6667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. Bologna</name>
+        <description><![CDATA[<h3>Bologna</h3>
+            <p><b>Secuencia:</b> 2 de 18</p>
+            <p><b>Ubicación:</b> Bologna, Emilia-Romagna, Italy</p>
+            <p><b>Distancia desde anterior:</b> 148.8 km</p>
+            <p><b>Distancia acumulada:</b> 148.8 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>11.3388,44.4938,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. Venezia</name>
+        <description><![CDATA[<h3>Venezia</h3>
+            <p><b>Secuencia:</b> 3 de 18</p>
+            <p><b>Ubicación:</b> Venezia, Veneto, Italy</p>
+            <p><b>Distancia desde anterior:</b> 130.7 km</p>
+            <p><b>Distancia acumulada:</b> 279.5 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>12.3271,45.4388,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. Pistoia</name>
+        <description><![CDATA[<h3>Pistoia</h3>
+            <p><b>Secuencia:</b> 4 de 18</p>
+            <p><b>Ubicación:</b> Pistoia, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 201.1 km</p>
+            <p><b>Distancia acumulada:</b> 480.6 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>10.9167,43.9333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. San Gimignano</name>
+        <description><![CDATA[<h3>San Gimignano</h3>
+            <p><b>Secuencia:</b> 5 de 18</p>
+            <p><b>Ubicación:</b> San Gimignano, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 52.1 km</p>
+            <p><b>Distancia acumulada:</b> 532.7 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>11.0438,43.4738,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. Lucca</name>
+        <description><![CDATA[<h3>Lucca</h3>
+            <p><b>Secuencia:</b> 6 de 18</p>
+            <p><b>Ubicación:</b> Lucca, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 59.8 km</p>
+            <p><b>Distancia acumulada:</b> 592.5 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>10.5045,43.8437,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. Monteriggioni</name>
+        <description><![CDATA[<h3>Monteriggioni</h3>
+            <p><b>Secuencia:</b> 7 de 18</p>
+            <p><b>Ubicación:</b> Monteriggioni, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 76.8 km</p>
+            <p><b>Distancia acumulada:</b> 669.3 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>11.2232,43.3899,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. Pisa</name>
+        <description><![CDATA[<h3>Pisa</h3>
+            <p><b>Secuencia:</b> 8 de 18</p>
+            <p><b>Ubicación:</b> Pisa, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 75.0 km</p>
+            <p><b>Distancia acumulada:</b> 744.2 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>10.4036,43.7085,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. Bagno Maurizio</name>
+        <description><![CDATA[<h3>Bagno Maurizio</h3>
+            <p><b>Secuencia:</b> 9 de 18</p>
+            <p><b>Ubicación:</b> Bagno Maurizio, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 22.7 km</p>
+            <p><b>Distancia acumulada:</b> 766.9 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>10.2385,43.8746,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10. Firenze</name>
+        <description><![CDATA[<h3>Firenze</h3>
+            <p><b>Secuencia:</b> 10 de 18</p>
+            <p><b>Ubicación:</b> Firenze, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 81.5 km</p>
+            <p><b>Distancia acumulada:</b> 848.5 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>11.2463,43.7793,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11. Viareggio</name>
+        <description><![CDATA[<h3>Viareggio</h3>
+            <p><b>Secuencia:</b> 11 de 18</p>
+            <p><b>Ubicación:</b> Viareggio, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 81.9 km</p>
+            <p><b>Distancia acumulada:</b> 930.4 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>10.2333,43.8715,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12. Cinque Terre</name>
+        <description><![CDATA[<h3>Cinque Terre</h3>
+            <p><b>Secuencia:</b> 12 de 18</p>
+            <p><b>Ubicación:</b> Cinque Terre, Liguria, Italy</p>
+            <p><b>Distancia desde anterior:</b> 50.5 km</p>
+            <p><b>Distancia acumulada:</b> 980.9 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>9.7124,44.1281,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13. La Spezia</name>
+        <description><![CDATA[<h3>La Spezia</h3>
+            <p><b>Secuencia:</b> 13 de 18</p>
+            <p><b>Ubicación:</b> La Spezia, Liguria, Italy</p>
+            <p><b>Distancia desde anterior:</b> 8.9 km</p>
+            <p><b>Distancia acumulada:</b> 989.8 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>9.8167,44.1,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14. Montalcino</name>
+        <description><![CDATA[<h3>Montalcino</h3>
+            <p><b>Secuencia:</b> 14 de 18</p>
+            <p><b>Ubicación:</b> Montalcino, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 177.8 km</p>
+            <p><b>Distancia acumulada:</b> 1167.6 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>11.4891,43.0559,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15. Val d'Orcia (San Quirico d'Orcia)</name>
+        <description><![CDATA[<h3>Val d'Orcia (San Quirico d'Orcia)</h3>
+            <p><b>Secuencia:</b> 15 de 18</p>
+            <p><b>Ubicación:</b> Val d'Orcia (San Quirico d'Orcia), Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 9.4 km</p>
+            <p><b>Distancia acumulada:</b> 1177.1 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>11.6053,43.0578,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16. Siena</name>
+        <description><![CDATA[<h3>Siena</h3>
+            <p><b>Secuencia:</b> 16 de 18</p>
+            <p><b>Ubicación:</b> Siena, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 36.5 km</p>
+            <p><b>Distancia acumulada:</b> 1213.6 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>11.3306,43.3182,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17. Cortona</name>
+        <description><![CDATA[<h3>Cortona</h3>
+            <p><b>Secuencia:</b> 17 de 18</p>
+            <p><b>Ubicación:</b> Cortona, Toscana, Italy</p>
+            <p><b>Distancia desde anterior:</b> 53.4 km</p>
+            <p><b>Distancia acumulada:</b> 1267.0 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>11.9878,43.2741,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18. Assisi</name>
+        <description><![CDATA[<h3>Assisi</h3>
+            <p><b>Secuencia:</b> 18 de 18</p>
+            <p><b>Ubicación:</b> Assisi, Umbria, Italy</p>
+            <p><b>Distancia desde anterior:</b> 56.3 km</p>
+            <p><b>Distancia acumulada:</b> 1323.3 km</p>]]></description>
+        <styleUrl>#cities_style</styleUrl>
+        <Point>
+          <coordinates>12.6211,43.0667,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Monumentos Históricos</name>
+      <Placemark>
+        <name>Piazza dei Signori</name>
+        <description><![CDATA[<h3>Piazza dei Signori</h3>
+                        <p><b>Ciudad:</b> Treviso</p>
+                        <p><b>Categoría:</b> historical_square</p>
+                        <p><b>Descripción:</b> Corazón de la ciudad con Torre Cívica, Palacio del Podestá y Palazzo dei Trecento (s.XIII)</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>12.2441,45.6675,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duomo de Treviso (Cattedrale di San Pietro)</name>
+        <description><![CDATA[<h3>Duomo de Treviso (Cattedrale di San Pietro)</h3>
+                        <p><b>Ciudad:</b> Treviso</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Templo románico (s.XII) con fachada de columnas jónicas, alberga la Anunciación de Tiziano</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>12.2436,45.6659,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murallas de Treviso y Porta San Tomaso</name>
+        <description><![CDATA[<h3>Murallas de Treviso y Porta San Tomaso</h3>
+                        <p><b>Ciudad:</b> Treviso</p>
+                        <p><b>Categoría:</b> fortification</p>
+                        <p><b>Descripción:</b> Murallas venecianas de 1517 que protegen el casco medieval, con acceso monumental en mármol</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>12.2387,45.6692,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basílica de San Francisco</name>
+        <description><![CDATA[<h3>Basílica de San Francisco</h3>
+                        <p><b>Ciudad:</b> Assisi</p>
+                        <p><b>Categoría:</b> unesco_basilica</p>
+                        <p><b>Descripción:</b> Obra maestra UNESCO con frescos de Giotto, Cimabue y otros maestros medievales</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>12.606,43.0757,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basílica de Santa Clara</name>
+        <description><![CDATA[<h3>Basílica de Santa Clara</h3>
+                        <p><b>Ciudad:</b> Assisi</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Importante basílica franciscana en el extremo del centro histórico de Assisi</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>12.6183,43.0715,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basílica de Santa María de los Ángeles</name>
+        <description><![CDATA[<h3>Basílica de Santa María de los Ángeles</h3>
+                        <p><b>Ciudad:</b> Assisi</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Basílica franciscana situada en la llanura, parte del sitio UNESCO</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>12.6078,43.0586,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carnevale di Viareggio (Ciudadela)</name>
+        <description><![CDATA[<h3>Carnevale di Viareggio (Ciudadela)</h3>
+                        <p><b>Ciudad:</b> Bagno Maurizio</p>
+                        <p><b>Categoría:</b> cultural_heritage</p>
+                        <p><b>Descripción:</b> Museo y talleres del famoso carnaval italiano, patrimonio cultural único</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.2456,43.8735,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa Paolina Bonaparte</name>
+        <description><![CDATA[<h3>Villa Paolina Bonaparte</h3>
+                        <p><b>Ciudad:</b> Bagno Maurizio</p>
+                        <p><b>Categoría:</b> historical_villa</p>
+                        <p><b>Descripción:</b> Villa histórica de la hermana de Napoleón, ahora museo</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.2423,43.8752,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piazza Maggiore</name>
+        <description><![CDATA[<h3>Piazza Maggiore</h3>
+                        <p><b>Ciudad:</b> Bologna</p>
+                        <p><b>Categoría:</b> historical_square</p>
+                        <p><b>Descripción:</b> Plaza principal desde 1200, centro institucional con palacios históricos</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.342905,44.494198,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basílica de San Petronio</name>
+        <description><![CDATA[<h3>Basílica de San Petronio</h3>
+                        <p><b>Ciudad:</b> Bologna</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Iglesia más grande e importante de Bologna, dedicada al santo patrón</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.3428,44.4937,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Due Torri (Torres Asinelli y Garisenda)</name>
+        <description><![CDATA[<h3>Due Torri (Torres Asinelli y Garisenda)</h3>
+                        <p><b>Ciudad:</b> Bologna</p>
+                        <p><b>Categoría:</b> medieval_towers</p>
+                        <p><b>Descripción:</b> Torres medievales símbolo de Bologna, las más altas conservadas</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.3464,44.4946,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiesa di Santa Margherita (Vernazza)</name>
+        <description><![CDATA[<h3>Chiesa di Santa Margherita (Vernazza)</h3>
+                        <p><b>Ciudad:</b> Cinque Terre</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Iglesia románico-genovesa del siglo XI, monumento histórico principal de Vernazza</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>9.6842,44.1345,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiesa di San Giovanni Battista (Monterosso)</name>
+        <description><![CDATA[<h3>Chiesa di San Giovanni Battista (Monterosso)</h3>
+                        <p><b>Ciudad:</b> Cinque Terre</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Iglesia histórica con Torre Aurora y restos del Castello Fieschi</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>9.6567,44.1456,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monumento a San Francesco (Monterosso)</name>
+        <description><![CDATA[<h3>Monumento a San Francesco (Monterosso)</h3>
+                        <p><b>Ciudad:</b> Cinque Terre</p>
+                        <p><b>Categoría:</b> monument</p>
+                        <p><b>Descripción:</b> Estatua en el sendero costero de Monterosso al Mare</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>9.6578,44.1448,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duomo di Cortona</name>
+        <description><![CDATA[<h3>Duomo di Cortona</h3>
+                        <p><b>Ciudad:</b> Cortona</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Catedral principal de la ciudad con importantes obras de arte</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.9875,43.2753,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murallas Etruscas</name>
+        <description><![CDATA[<h3>Murallas Etruscas</h3>
+                        <p><b>Ciudad:</b> Cortona</p>
+                        <p><b>Categoría:</b> ancient_fortification</p>
+                        <p><b>Descripción:</b> Antiguas murallas etruscas con 6 puertas históricas, las más antiguas de Toscana</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.9878,43.2741,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiesa di San Francesco</name>
+        <description><![CDATA[<h3>Chiesa di San Francesco</h3>
+                        <p><b>Ciudad:</b> Cortona</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Iglesia franciscana con importantes obras de arte medieval</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.9883,43.2745,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duomo - Cattedrale di Santa Maria del Fiore</name>
+        <description><![CDATA[<h3>Duomo - Cattedrale di Santa Maria del Fiore</h3>
+                        <p><b>Ciudad:</b> Firenze</p>
+                        <p><b>Categoría:</b> unesco_cathedral</p>
+                        <p><b>Descripción:</b> Catedral del s.XIII con cúpula de Brunelleschi, símbolo de Florencia</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.256,43.7731,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponte Vecchio</name>
+        <description><![CDATA[<h3>Ponte Vecchio</h3>
+                        <p><b>Ciudad:</b> Firenze</p>
+                        <p><b>Categoría:</b> historical_bridge</p>
+                        <p><b>Descripción:</b> Puente medieval del s.XIV bordeado de tiendas, icono de Florencia</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.253,43.7681,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palazzo Vecchio y Piazza della Signoria</name>
+        <description><![CDATA[<h3>Palazzo Vecchio y Piazza della Signoria</h3>
+                        <p><b>Ciudad:</b> Firenze</p>
+                        <p><b>Categoría:</b> civic_palace</p>
+                        <p><b>Descripción:</b> Palacio municipal y plaza política, centro del poder florentino</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.2558,43.7696,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castello di San Giorgio</name>
+        <description><![CDATA[<h3>Castello di San Giorgio</h3>
+                        <p><b>Ciudad:</b> La Spezia</p>
+                        <p><b>Categoría:</b> historical_castle</p>
+                        <p><b>Descripción:</b> Castillo del s.XVII en elevación con vistas panorámicas de la ciudad y puerto</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>9.8198,44.1025,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiesa di Santa Maria Assunta</name>
+        <description><![CDATA[<h3>Chiesa di Santa Maria Assunta</h3>
+                        <p><b>Ciudad:</b> La Spezia</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Iglesia principal de La Spezia, importante monumento religioso</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>9.8175,44.1015,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo Amedeo Lia</name>
+        <description><![CDATA[<h3>Museo Amedeo Lia</h3>
+                        <p><b>Ciudad:</b> La Spezia</p>
+                        <p><b>Categoría:</b> museum</p>
+                        <p><b>Descripción:</b> Museo de bellas artes en convento restaurado del s.XVII</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>9.8185,44.1018,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murallas Medievales de Lucca</name>
+        <description><![CDATA[<h3>Murallas Medievales de Lucca</h3>
+                        <p><b>Ciudad:</b> Lucca</p>
+                        <p><b>Categoría:</b> medieval_walls</p>
+                        <p><b>Descripción:</b> Murallas del s.XVI únicas en el mundo, nunca usadas bélicamente y perfectamente conservadas</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.5045,43.8437,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torre Guinigi</name>
+        <description><![CDATA[<h3>Torre Guinigi</h3>
+                        <p><b>Ciudad:</b> Lucca</p>
+                        <p><b>Categoría:</b> medieval_tower</p>
+                        <p><b>Descripción:</b> Torre medieval de 44m con jardín de encinas en la cima, símbolo de Lucca</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.5058,43.8423,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duomo di Lucca (San Martino)</name>
+        <description><![CDATA[<h3>Duomo di Lucca (San Martino)</h3>
+                        <p><b>Ciudad:</b> Lucca</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Catedral románica con fachada de mármol e importantes obras de arte</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.5031,43.8409,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piazza San Marco y Basílica</name>
+        <description><![CDATA[<h3>Piazza San Marco y Basílica</h3>
+                        <p><b>Ciudad:</b> Venezia</p>
+                        <p><b>Categoría:</b> unesco_square</p>
+                        <p><b>Descripción:</b> Plaza principal con basílica bizantina, campanile y Procuratie, corazón de Venecia</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>12.3387,45.4341,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palazzo Ducale (Palacio Dux)</name>
+        <description><![CDATA[<h3>Palazzo Ducale (Palacio Dux)</h3>
+                        <p><b>Ciudad:</b> Venezia</p>
+                        <p><b>Categoría:</b> unesco_palace</p>
+                        <p><b>Descripción:</b> Sede del poder veneciano, obra maestra gótica con Puente de los Suspiros</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>12.3403,45.4334,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponte di Rialto</name>
+        <description><![CDATA[<h3>Ponte di Rialto</h3>
+                        <p><b>Ciudad:</b> Venezia</p>
+                        <p><b>Categoría:</b> historical_bridge</p>
+                        <p><b>Descripción:</b> Puente icónico del s.XVI sobre el Gran Canal con tiendas históricas</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>12.3358,45.438,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torre di Pisa (Torre Inclinada)</name>
+        <description><![CDATA[<h3>Torre di Pisa (Torre Inclinada)</h3>
+                        <p><b>Ciudad:</b> Pisa</p>
+                        <p><b>Categoría:</b> unesco_tower</p>
+                        <p><b>Descripción:</b> Campanile del s.XII inclinado 3.97°, símbolo mundial de Pisa</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.3966,43.7229,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duomo di Pisa</name>
+        <description><![CDATA[<h3>Duomo di Pisa</h3>
+                        <p><b>Ciudad:</b> Pisa</p>
+                        <p><b>Categoría:</b> unesco_cathedral</p>
+                        <p><b>Descripción:</b> Catedral románica pisana del s.XI en mármol blanco, modelo arquitectónico</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.3951,43.723,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Battistero di San Giovanni</name>
+        <description><![CDATA[<h3>Battistero di San Giovanni</h3>
+                        <p><b>Ciudad:</b> Pisa</p>
+                        <p><b>Categoría:</b> unesco_baptistery</p>
+                        <p><b>Descripción:</b> Baptisterio románico-gótico más grande de Italia, acústica perfecta</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.3942,43.7233,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piazza del Campo</name>
+        <description><![CDATA[<h3>Piazza del Campo</h3>
+                        <p><b>Ciudad:</b> Siena</p>
+                        <p><b>Categoría:</b> unesco_square</p>
+                        <p><b>Descripción:</b> Plaza en forma de concha, centro del Palio y obra maestra urbana medieval</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.3309,43.3184,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palazzo Pubblico y Torre del Mangia</name>
+        <description><![CDATA[<h3>Palazzo Pubblico y Torre del Mangia</h3>
+                        <p><b>Ciudad:</b> Siena</p>
+                        <p><b>Categoría:</b> gothic_palace</p>
+                        <p><b>Descripción:</b> Palacio gótico del s.XIV con torre de 102m, símbolo del poder comunal</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.3305,43.3183,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duomo di Siena</name>
+        <description><![CDATA[<h3>Duomo di Siena</h3>
+                        <p><b>Ciudad:</b> Siena</p>
+                        <p><b>Categoría:</b> gothic_cathedral</p>
+                        <p><b>Descripción:</b> Catedral gótica con fachada de mármol policromado y pavimento único</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.3297,43.3175,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torres Medievales</name>
+        <description><![CDATA[<h3>Torres Medievales</h3>
+                        <p><b>Ciudad:</b> San Gimignano</p>
+                        <p><b>Categoría:</b> unesco_towers</p>
+                        <p><b>Descripción:</b> 14 torres conservadas de las 72 originales, símbolos del poder patricio medieval</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.0438,43.4738,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palazzo Comunale y Torre Grossa</name>
+        <description><![CDATA[<h3>Palazzo Comunale y Torre Grossa</h3>
+                        <p><b>Ciudad:</b> San Gimignano</p>
+                        <p><b>Categoría:</b> civic_palace</p>
+                        <p><b>Descripción:</b> Palacio del s.XIII con torre más alta (54m) y museo cívico</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.0435,43.4735,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Collegiata di Santa Maria Assunta</name>
+        <description><![CDATA[<h3>Collegiata di Santa Maria Assunta</h3>
+                        <p><b>Ciudad:</b> San Gimignano</p>
+                        <p><b>Categoría:</b> religious</p>
+                        <p><b>Descripción:</b> Duomo con ciclos de frescos de maestros del s.XIV, arte medieval excepcional</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.044,43.474,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fortezza di Montalcino</name>
+        <description><![CDATA[<h3>Fortezza di Montalcino</h3>
+                        <p><b>Ciudad:</b> Montalcino</p>
+                        <p><b>Categoría:</b> military_fortress</p>
+                        <p><b>Descripción:</b> Fortaleza del s.XIV, símbolo de la resistencia senese contra Florencia (1555)</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.4885,43.0565,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Abbazia di Sant'Antimo</name>
+        <description><![CDATA[<h3>Abbazia di Sant'Antimo</h3>
+                        <p><b>Ciudad:</b> Montalcino</p>
+                        <p><b>Categoría:</b> romanesque_abbey</p>
+                        <p><b>Descripción:</b> Joya románica del s.XII en Val d'Orcia, fundada por Carlomagno</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.5167,43.0167,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palazzo Comunale</name>
+        <description><![CDATA[<h3>Palazzo Comunale</h3>
+                        <p><b>Ciudad:</b> Montalcino</p>
+                        <p><b>Categoría:</b> civic_building</p>
+                        <p><b>Descripción:</b> Ayuntamiento medieval con torre y loggia, centro cívico histórico</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.4895,43.0555,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murallas Circulares y Torres</name>
+        <description><![CDATA[<h3>Murallas Circulares y Torres</h3>
+                        <p><b>Ciudad:</b> Monteriggioni</p>
+                        <p><b>Categoría:</b> dante_fortification</p>
+                        <p><b>Descripción:</b> Murallas del s.XIII con 14 torres cuadradas, citadas por Dante en el Infierno</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.2232,43.3899,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piazza Roma</name>
+        <description><![CDATA[<h3>Piazza Roma</h3>
+                        <p><b>Ciudad:</b> Monteriggioni</p>
+                        <p><b>Categoría:</b> medieval_square</p>
+                        <p><b>Descripción:</b> Plaza central medieval perfectamente conservada dentro de las murallas</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.2235,43.39,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiesa di Santa Maria Assunta</name>
+        <description><![CDATA[<h3>Chiesa di Santa Maria Assunta</h3>
+                        <p><b>Ciudad:</b> Monteriggioni</p>
+                        <p><b>Categoría:</b> romanesque_church</p>
+                        <p><b>Descripción:</b> Iglesia románica del s.XIII en el centro del pueblo amurallado</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.2233,43.3898,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cattedrale di San Zeno</name>
+        <description><![CDATA[<h3>Cattedrale di San Zeno</h3>
+                        <p><b>Ciudad:</b> Pistoia</p>
+                        <p><b>Categoría:</b> romanesque_cathedral</p>
+                        <p><b>Descripción:</b> Catedral románica con fachada de mármol y altar de plata de San Jacopo</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.9176,43.9338,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ospedale del Ceppo</name>
+        <description><![CDATA[<h3>Ospedale del Ceppo</h3>
+                        <p><b>Ciudad:</b> Pistoia</p>
+                        <p><b>Categoría:</b> renaissance_hospital</p>
+                        <p><b>Descripción:</b> Hospital histórico con friso cerámico renacentista de Giovanni della Robbia</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.9185,43.9345,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piazza del Duomo</name>
+        <description><![CDATA[<h3>Piazza del Duomo</h3>
+                        <p><b>Ciudad:</b> Pistoia</p>
+                        <p><b>Categoría:</b> cathedral_square</p>
+                        <p><b>Descripción:</b> Plaza central con catedral, baptisterio, Palazzo dei Vescovi y Palazzo Comunale</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.9178,43.934,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pienza - Città Ideale</name>
+        <description><![CDATA[<h3>Pienza - Città Ideale</h3>
+                        <p><b>Ciudad:</b> Val d'Orcia (San Quirico d'Orcia)</p>
+                        <p><b>Categoría:</b> unesco_ideal_city</p>
+                        <p><b>Descripción:</b> Ciudad renacentista ideal de Pío II, patrimonio UNESCO desde 1996</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.6767,43.0781,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Collegiata di San Quirico</name>
+        <description><![CDATA[<h3>Collegiata di San Quirico</h3>
+                        <p><b>Ciudad:</b> Val d'Orcia (San Quirico d'Orcia)</p>
+                        <p><b>Categoría:</b> romanesque_collegiate</p>
+                        <p><b>Descripción:</b> Iglesia románica del s.XII con portales esculpidos únicos</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.6058,43.0583,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cappella di Vitaleta</name>
+        <description><![CDATA[<h3>Cappella di Vitaleta</h3>
+                        <p><b>Ciudad:</b> Val d'Orcia (San Quirico d'Orcia)</p>
+                        <p><b>Categoría:</b> renaissance_chapel</p>
+                        <p><b>Descripción:</b> Capilla renacentista icónica en medio del paisaje ideal toscano</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>11.65,43.075,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa Paolina Bonaparte</name>
+        <description><![CDATA[<h3>Villa Paolina Bonaparte</h3>
+                        <p><b>Ciudad:</b> Viareggio</p>
+                        <p><b>Categoría:</b> napoleonic_villa</p>
+                        <p><b>Descripción:</b> Villa histórica de 1822 de la hermana de Napoleón, ahora museo</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.2423,43.8752,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paseo Liberty</name>
+        <description><![CDATA[<h3>Paseo Liberty</h3>
+                        <p><b>Ciudad:</b> Viareggio</p>
+                        <p><b>Categoría:</b> liberty_architecture</p>
+                        <p><b>Descripción:</b> Arquitectura Art Nouveau de los años 20-30 en el paseo marítimo</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.24,43.874,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cittadella del Carnevale</name>
+        <description><![CDATA[<h3>Cittadella del Carnevale</h3>
+                        <p><b>Ciudad:</b> Viareggio</p>
+                        <p><b>Categoría:</b> carnival_heritage</p>
+                        <p><b>Descripción:</b> Museo y talleres del famoso Carnevale di Viareggio, patrimonio cultural</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#monuments_style</styleUrl>
+        <Point>
+          <coordinates>10.2456,43.8735,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Paisajes Naturales</name>
+      <Placemark>
+        <name>Canales del Centro Histórico</name>
+        <description><![CDATA[<h3>Canales del Centro Histórico</h3>
+                        <p><b>Ciudad:</b> Treviso</p>
+                        <p><b>Categoría:</b> urban_waterways</p>
+                        <p><b>Descripción:</b> Red de canales que conectan villas palaciegas y antiguos molinos, 'ciudad del agua'</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>12.2455,45.6668,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Isola della Pescheria</name>
+        <description><![CDATA[<h3>Isola della Pescheria</h3>
+                        <p><b>Ciudad:</b> Treviso</p>
+                        <p><b>Categoría:</b> historical_island</p>
+                        <p><b>Descripción:</b> Isla fluvial histórica en el centro, lugar de mercado de pescado tradicional</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>12.2448,45.6671,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque del Monte Subasio</name>
+        <description><![CDATA[<h3>Parque del Monte Subasio</h3>
+                        <p><b>Ciudad:</b> Assisi</p>
+                        <p><b>Categoría:</b> natural_park</p>
+                        <p><b>Descripción:</b> Parque natural con senderos, bosques y vistas panorámicas de Umbría</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>12.65,43.0833,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ermita de Carceri</name>
+        <description><![CDATA[<h3>Ermita de Carceri</h3>
+                        <p><b>Ciudad:</b> Assisi</p>
+                        <p><b>Categoría:</b> spiritual_nature</p>
+                        <p><b>Descripción:</b> Cuevas originales de San Francisco en el valle, con entorno natural preservado</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>12.6356,43.0789,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Playa de Viareggio - Bagno Maurizio</name>
+        <description><![CDATA[<h3>Playa de Viareggio - Bagno Maurizio</h3>
+                        <p><b>Ciudad:</b> Bagno Maurizio</p>
+                        <p><b>Categoría:</b> coastal_beach</p>
+                        <p><b>Descripción:</b> Playa de arena fina del Mar Tirreno con establecimiento balneario histórico</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>10.2385,43.8746,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paseo Marítimo de Viareggio</name>
+        <description><![CDATA[<h3>Paseo Marítimo de Viareggio</h3>
+                        <p><b>Ciudad:</b> Bagno Maurizio</p>
+                        <p><b>Categoría:</b> waterfront_promenade</p>
+                        <p><b>Descripción:</b> Elegante paseo costero con vistas al mar y arquitectura Liberty</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>10.24,43.874,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parco Cavaioni</name>
+        <description><![CDATA[<h3>Parco Cavaioni</h3>
+                        <p><b>Ciudad:</b> Bologna</p>
+                        <p><b>Categoría:</b> urban_park</p>
+                        <p><b>Descripción:</b> Parque natural en las colinas de Bologna con senderos y vistas panorámicas</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.2985,44.4695,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colli Bolognesi</name>
+        <description><![CDATA[<h3>Colli Bolognesi</h3>
+                        <p><b>Ciudad:</b> Bologna</p>
+                        <p><b>Categoría:</b> hills_landscape</p>
+                        <p><b>Descripción:</b> Colinas alrededor de Bologna con paisajes naturales y pueblos históricos</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.4,44.45,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via dell'Amore</name>
+        <description><![CDATA[<h3>Via dell'Amore</h3>
+                        <p><b>Ciudad:</b> Cinque Terre</p>
+                        <p><b>Categoría:</b> coastal_trail</p>
+                        <p><b>Descripción:</b> Sendero romántico de 900m en acantilado conectando Riomaggiore y Manarola</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>9.7366,44.1058,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Nacional Cinque Terre</name>
+        <description><![CDATA[<h3>Parque Nacional Cinque Terre</h3>
+                        <p><b>Ciudad:</b> Cinque Terre</p>
+                        <p><b>Categoría:</b> national_park</p>
+                        <p><b>Descripción:</b> Senderos de montaña y costa con vistas espectaculares del Mediterráneo</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>9.7124,44.1281,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piazza Garibaldi - Mirador</name>
+        <description><![CDATA[<h3>Piazza Garibaldi - Mirador</h3>
+                        <p><b>Ciudad:</b> Cortona</p>
+                        <p><b>Categoría:</b> panoramic_viewpoint</p>
+                        <p><b>Descripción:</b> Explanada con vistas impresionantes del Val di Chiana, lago Trasimeno y Montepulciano</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.9881,43.2756,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fortezza del Girifalco</name>
+        <description><![CDATA[<h3>Fortezza del Girifalco</h3>
+                        <p><b>Ciudad:</b> Cortona</p>
+                        <p><b>Categoría:</b> historical_viewpoint</p>
+                        <p><b>Descripción:</b> Fortaleza con panorámicas de la región toscana</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.9889,43.2771,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piazzale Michelangelo</name>
+        <description><![CDATA[<h3>Piazzale Michelangelo</h3>
+                        <p><b>Ciudad:</b> Firenze</p>
+                        <p><b>Categoría:</b> panoramic_viewpoint</p>
+                        <p><b>Descripción:</b> Mirador panorámico con las mejores vistas de Florencia y el Arno</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.2653,43.7631,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giardino di Boboli</name>
+        <description><![CDATA[<h3>Giardino di Boboli</h3>
+                        <p><b>Ciudad:</b> Firenze</p>
+                        <p><b>Categoría:</b> renaissance_gardens</p>
+                        <p><b>Descripción:</b> Jardines renacentistas del Palazzo Pitti, museo al aire libre</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.2497,43.7648,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golfo dei Poeti</name>
+        <description><![CDATA[<h3>Golfo dei Poeti</h3>
+                        <p><b>Ciudad:</b> La Spezia</p>
+                        <p><b>Categoría:</b> coastal_bay</p>
+                        <p><b>Descripción:</b> Bahía espectacular con vista a islas Palmaria, Tino y Tinetto</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>9.8333,44.0833,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Isola Palmaria</name>
+        <description><![CDATA[<h3>Isola Palmaria</h3>
+                        <p><b>Ciudad:</b> La Spezia</p>
+                        <p><b>Categoría:</b> natural_island</p>
+                        <p><b>Descripción:</b> Isla natural accesible en ferry con aguas turquesas y naturaleza preservada</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>9.8372,44.0581,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa Reale di Marlia</name>
+        <description><![CDATA[<h3>Villa Reale di Marlia</h3>
+                        <p><b>Ciudad:</b> Lucca</p>
+                        <p><b>Categoría:</b> historical_gardens</p>
+                        <p><b>Descripción:</b> Villa con uno de los parques más bellos de Toscana e Italia</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>10.4833,43.8667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palazzo Pfanner y Jardines</name>
+        <description><![CDATA[<h3>Palazzo Pfanner y Jardines</h3>
+                        <p><b>Ciudad:</b> Lucca</p>
+                        <p><b>Categoría:</b> baroque_gardens</p>
+                        <p><b>Descripción:</b> Palacio con jardines barrocos históricos en el centro de Lucca</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>10.502,43.8445,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canal Grande</name>
+        <description><![CDATA[<h3>Canal Grande</h3>
+                        <p><b>Ciudad:</b> Venezia</p>
+                        <p><b>Categoría:</b> historic_waterway</p>
+                        <p><b>Descripción:</b> Arteria principal de Venecia con palacios históricos y vistas desde góndolas</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>12.335,45.438,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laguna Veneciana</name>
+        <description><![CDATA[<h3>Laguna Veneciana</h3>
+                        <p><b>Ciudad:</b> Venezia</p>
+                        <p><b>Categoría:</b> lagoon_ecosystem</p>
+                        <p><b>Descripción:</b> Ecosistema único de 550 km² con islas, marismas y canales naturales</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>12.3333,45.3667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giardino Scotto</name>
+        <description><![CDATA[<h3>Giardino Scotto</h3>
+                        <p><b>Ciudad:</b> Pisa</p>
+                        <p><b>Categoría:</b> historic_park</p>
+                        <p><b>Descripción:</b> Parque histórico sobre el Arno con restos de fortificaciones medievales</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>10.4025,43.7156,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lungarni</name>
+        <description><![CDATA[<h3>Lungarni</h3>
+                        <p><b>Ciudad:</b> Pisa</p>
+                        <p><b>Categoría:</b> riverfront_promenade</p>
+                        <p><b>Descripción:</b> Paseos a orillas del río Arno con vistas panorámicas de la ciudad</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>10.405,43.7167,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castello di Brolio</name>
+        <description><![CDATA[<h3>Castello di Brolio</h3>
+                        <p><b>Ciudad:</b> Siena</p>
+                        <p><b>Categoría:</b> castle_viewpoint</p>
+                        <p><b>Descripción:</b> Castillo medieval con mirador panorámico de la Toscana y viñedos Chianti</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.4833,43.4167,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Collines del Chianti</name>
+        <description><![CDATA[<h3>Collines del Chianti</h3>
+                        <p><b>Ciudad:</b> Siena</p>
+                        <p><b>Categoría:</b> wine_landscape</p>
+                        <p><b>Descripción:</b> Paisaje ondulado de viñedos y olivares característico de la región</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.4,43.35,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murallas y Vistas del Val d'Elsa</name>
+        <description><![CDATA[<h3>Murallas y Vistas del Val d'Elsa</h3>
+                        <p><b>Ciudad:</b> San Gimignano</p>
+                        <p><b>Categoría:</b> medieval_walls</p>
+                        <p><b>Descripción:</b> Camino de ronda con panorámicas de las colinas toscanas y viñedos</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.0445,43.4745,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rocca di Montestaffoli</name>
+        <description><![CDATA[<h3>Rocca di Montestaffoli</h3>
+                        <p><b>Ciudad:</b> San Gimignano</p>
+                        <p><b>Categoría:</b> fortress_ruins</p>
+                        <p><b>Descripción:</b> Restos de fortaleza del s.XIV con mirador panorámico de la región</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.043,43.473,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viñedos de Brunello</name>
+        <description><![CDATA[<h3>Viñedos de Brunello</h3>
+                        <p><b>Ciudad:</b> Montalcino</p>
+                        <p><b>Categoría:</b> wine_landscape</p>
+                        <p><b>Descripción:</b> Paisaje vitícola único patrimonio del vino más prestigioso de Toscana</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.5,43.05,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valle Starcia</name>
+        <description><![CDATA[<h3>Valle Starcia</h3>
+                        <p><b>Ciudad:</b> Montalcino</p>
+                        <p><b>Categoría:</b> valley_landscape</p>
+                        <p><b>Descripción:</b> Valle alrededor de Sant'Antimo con paisajes bucólicos del Val d'Orcia</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.52,43.02,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camino de Ronda</name>
+        <description><![CDATA[<h3>Camino de Ronda</h3>
+                        <p><b>Ciudad:</b> Monteriggioni</p>
+                        <p><b>Categoría:</b> wall_walk</p>
+                        <p><b>Descripción:</b> Paseo sobre las murallas con vistas panorámicas de las colinas del Chianti</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.224,43.3905,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paisaje Circundante</name>
+        <description><![CDATA[<h3>Paisaje Circundante</h3>
+                        <p><b>Ciudad:</b> Monteriggioni</p>
+                        <p><b>Categoría:</b> countryside</p>
+                        <p><b>Descripción:</b> Colinas toscanas con viñedos y olivares alrededor del pueblo fortificado</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.23,43.385,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giardini Pubblici</name>
+        <description><![CDATA[<h3>Giardini Pubblici</h3>
+                        <p><b>Ciudad:</b> Pistoia</p>
+                        <p><b>Categoría:</b> public_gardens</p>
+                        <p><b>Descripción:</b> Parques públicos históricos con paseos arbolados y zona de descanso</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>10.915,43.932,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montañas Pistoiesas</name>
+        <description><![CDATA[<h3>Montañas Pistoiesas</h3>
+                        <p><b>Ciudad:</b> Pistoia</p>
+                        <p><b>Categoría:</b> mountain_landscape</p>
+                        <p><b>Descripción:</b> Paisaje montañoso pre-alpino visible desde la ciudad</p><p><b>Importancia:</b> medium</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>10.9,44.0,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colinas y Cipreses del Val d'Orcia</name>
+        <description><![CDATA[<h3>Colinas y Cipreses del Val d'Orcia</h3>
+                        <p><b>Ciudad:</b> Val d'Orcia (San Quirico d'Orcia)</p>
+                        <p><b>Categoría:</b> unesco_landscape</p>
+                        <p><b>Descripción:</b> Paisaje cultural UNESCO con colinas onduladas y hileras de cipreses icónicas</p><p><b>Importancia:</b> unesco_heritage</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.62,43.05,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Podere Belvedere</name>
+        <description><![CDATA[<h3>Podere Belvedere</h3>
+                        <p><b>Ciudad:</b> Val d'Orcia (San Quirico d'Orcia)</p>
+                        <p><b>Categoría:</b> iconic_farmhouse</p>
+                        <p><b>Descripción:</b> Granja con cipreses más fotografiada de la Toscana</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>11.6333,43.0667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pineta di Ponente</name>
+        <description><![CDATA[<h3>Pineta di Ponente</h3>
+                        <p><b>Ciudad:</b> Viareggio</p>
+                        <p><b>Categoría:</b> maritime_forest</p>
+                        <p><b>Descripción:</b> Bosque de pinos marítimos histórico entre la ciudad y el mar</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>10.22,43.86,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Costa della Versilia</name>
+        <description><![CDATA[<h3>Costa della Versilia</h3>
+                        <p><b>Ciudad:</b> Viareggio</p>
+                        <p><b>Categoría:</b> coastal_beach</p>
+                        <p><b>Descripción:</b> 12 km de costa de arena fina con establecimientos balnearios históricos</p><p><b>Importancia:</b> high</p>]]></description>
+        <styleUrl>#landscapes_style</styleUrl>
+        <Point>
+          <coordinates>10.2333,43.8715,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Lugares Gastronómicos</name>
+      <Placemark>
+        <name>Hostaria dai Naneti</name>
+        <description><![CDATA[<h3>Hostaria dai Naneti</h3>
+                        <p><b>Ciudad:</b> Treviso</p>
+                        <p><b>Categoría:</b> traditional_enoteca</p>
+                        <p><b>Descripción:</b> Enoteca tradicional con cicchetti, baccalà mantecato y vino local 'ombra di nero'</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>12.2445,45.667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toni del Spin</name>
+        <description><![CDATA[<h3>Toni del Spin</h3>
+                        <p><b>Ciudad:</b> Treviso</p>
+                        <p><b>Categoría:</b> traditional_restaurant</p>
+                        <p><b>Descripción:</b> Auténtica cocina trevigiana, famoso por risotto al radicchio (temporada Oct-Dic)</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>12.244,45.6665,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antica Osteria Al Botegon</name>
+        <description><![CDATA[<h3>Antica Osteria Al Botegon</h3>
+                        <p><b>Ciudad:</b> Treviso</p>
+                        <p><b>Categoría:</b> aperitivo_bar</p>
+                        <p><b>Descripción:</b> Ideal para aperitivo con cicchetti creativos como albóndigas de atún y montaditos de bacalao</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>12.2442,45.6672,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Bella Trattoria Degli Angeli</name>
+        <description><![CDATA[<h3>La Bella Trattoria Degli Angeli</h3>
+                        <p><b>Ciudad:</b> Assisi</p>
+                        <p><b>Categoría:</b> traditional_trattoria</p>
+                        <p><b>Descripción:</b> Trattoria tradicional con especialidades umbras y ambiente acogedor</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>12.6175,43.072,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Terrazze di Properzio</name>
+        <description><![CDATA[<h3>Le Terrazze di Properzio</h3>
+                        <p><b>Ciudad:</b> Assisi</p>
+                        <p><b>Categoría:</b> panoramic_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante con terrazas panorámicas y cocina umbra tradicional</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>12.618,43.071,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bibenda Assisi</name>
+        <description><![CDATA[<h3>Bibenda Assisi</h3>
+                        <p><b>Ciudad:</b> Assisi</p>
+                        <p><b>Categoría:</b> wine_bar</p>
+                        <p><b>Descripción:</b> Enoteca especializada en degustación de vinos locales y productos umbros</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>12.617,43.0715,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ristorante Bagno Maurizio</name>
+        <description><![CDATA[<h3>Ristorante Bagno Maurizio</h3>
+                        <p><b>Ciudad:</b> Bagno Maurizio</p>
+                        <p><b>Categoría:</b> seafood_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante del propio establecimiento con especialidades de pescado fresco</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.2385,43.8746,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mata Mata</name>
+        <description><![CDATA[<h3>Mata Mata</h3>
+                        <p><b>Ciudad:</b> Bagno Maurizio</p>
+                        <p><b>Categoría:</b> modern_seafood</p>
+                        <p><b>Descripción:</b> Restaurante de mar con especialidades en crudo y pescado de la zona</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.2395,43.8741,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trattoria Pizzeria A Ciassetta</name>
+        <description><![CDATA[<h3>Trattoria Pizzeria A Ciassetta</h3>
+                        <p><b>Ciudad:</b> Bagno Maurizio</p>
+                        <p><b>Categoría:</b> family_trattoria</p>
+                        <p><b>Descripción:</b> Trattoria familiar con pizzas y especialidades toscanas cerca del mar</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.239,43.8738,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria la Traviata</name>
+        <description><![CDATA[<h3>Osteria la Traviata</h3>
+                        <p><b>Ciudad:</b> Bologna</p>
+                        <p><b>Categoría:</b> traditional_osteria</p>
+                        <p><b>Descripción:</b> Tortellini hechos a mano cada mañana, ambiente cálido y auténtico</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.3377,44.4958,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ristorante Cesarina</name>
+        <description><![CDATA[<h3>Ristorante Cesarina</h3>
+                        <p><b>Ciudad:</b> Bologna</p>
+                        <p><b>Categoría:</b> traditional_restaurant</p>
+                        <p><b>Descripción:</b> Tortellini en caldo perfectos en una de las plazas más bonitas de la ciudad</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.3475,44.4925,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ristorante Grassilli</name>
+        <description><![CDATA[<h3>Ristorante Grassilli</h3>
+                        <p><b>Ciudad:</b> Bologna</p>
+                        <p><b>Categoría:</b> traditional_restaurant</p>
+                        <p><b>Descripción:</b> Tortellini exquisitos bajo las Torres Asinelli y Garisenda</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.3462,44.4944,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nessun Dorma (Manarola)</name>
+        <description><![CDATA[<h3>Nessun Dorma (Manarola)</h3>
+                        <p><b>Ciudad:</b> Cinque Terre</p>
+                        <p><b>Categoría:</b> panoramic_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante con vistas panorámicas del mar y especialidades en pescado fresco</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>9.7366,44.1058,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Pirata delle Cinque Terre (Vernazza)</name>
+        <description><![CDATA[<h3>Il Pirata delle Cinque Terre (Vernazza)</h3>
+                        <p><b>Ciudad:</b> Cinque Terre</p>
+                        <p><b>Categoría:</b> traditional_trattoria</p>
+                        <p><b>Descripción:</b> Auténtica trattoria con especialidades marineras y ambiente típico</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>9.6842,44.1345,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ristorante Miky (Monterosso)</name>
+        <description><![CDATA[<h3>Ristorante Miky (Monterosso)</h3>
+                        <p><b>Ciudad:</b> Cinque Terre</p>
+                        <p><b>Categoría:</b> upscale_seafood</p>
+                        <p><b>Descripción:</b> Restaurante de alta calidad con especialidades en pescado del golfo</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>9.6567,44.1456,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trattoria Toscana</name>
+        <description><![CDATA[<h3>Trattoria Toscana</h3>
+                        <p><b>Ciudad:</b> Cortona</p>
+                        <p><b>Categoría:</b> traditional_trattoria</p>
+                        <p><b>Descripción:</b> Auténtica trattoria con menú bistecca y especialidades toscanas tradicionales</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.9876,43.2748,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Bucaccia Da Romano</name>
+        <description><![CDATA[<h3>La Bucaccia Da Romano</h3>
+                        <p><b>Ciudad:</b> Cortona</p>
+                        <p><b>Categoría:</b> family_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante familiar con energía, bonhomía y excelente mesa toscana</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.9879,43.2744,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria del Teatro</name>
+        <description><![CDATA[<h3>Osteria del Teatro</h3>
+                        <p><b>Ciudad:</b> Cortona</p>
+                        <p><b>Categoría:</b> michelin_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante reconocido por la Guía Michelin, cocina refinada toscana</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.9874,43.275,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trattoria Sostanza</name>
+        <description><![CDATA[<h3>Trattoria Sostanza</h3>
+                        <p><b>Ciudad:</b> Firenze</p>
+                        <p><b>Categoría:</b> historical_trattoria</p>
+                        <p><b>Descripción:</b> Histórica trattoria famosa por la auténtica bistecca alla fiorentina</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.2497,43.7715,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trattoria Mario</name>
+        <description><![CDATA[<h3>Trattoria Mario</h3>
+                        <p><b>Ciudad:</b> Firenze</p>
+                        <p><b>Categoría:</b> traditional_trattoria</p>
+                        <p><b>Descripción:</b> Trattoria centenaria cerca del Mercato Centrale, auténtica cocina florentina</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.2544,43.7766,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buca Lapi</name>
+        <description><![CDATA[<h3>Buca Lapi</h3>
+                        <p><b>Ciudad:</b> Firenze</p>
+                        <p><b>Categoría:</b> historic_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante histórico en sótano de palazzo, especialidad en carnes toscanas</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.2518,43.7708,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria Da Bartali</name>
+        <description><![CDATA[<h3>Osteria Da Bartali</h3>
+                        <p><b>Ciudad:</b> La Spezia</p>
+                        <p><b>Categoría:</b> seafood_osteria</p>
+                        <p><b>Descripción:</b> Osteria especializada en mariscos frescos del Golfo dei Poeti</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>9.818,44.102,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ristorante Petronilla</name>
+        <description><![CDATA[<h3>Ristorante Petronilla</h3>
+                        <p><b>Ciudad:</b> La Spezia</p>
+                        <p><b>Categoría:</b> upscale_seafood</p>
+                        <p><b>Descripción:</b> Restaurante de mariscos con alta calidad y presentación refinada</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>9.8172,44.1012,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Paradiso del Golfo</name>
+        <description><![CDATA[<h3>Il Paradiso del Golfo</h3>
+                        <p><b>Ciudad:</b> La Spezia</p>
+                        <p><b>Categoría:</b> panoramic_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante privilegiado sobre el golfo con pizzas artesanales y farinata</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>9.819,44.1005,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buca di Sant'Antonio</name>
+        <description><![CDATA[<h3>Buca di Sant'Antonio</h3>
+                        <p><b>Ciudad:</b> Lucca</p>
+                        <p><b>Categoría:</b> historic_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante histórico clásico con cocina lucchese tradicional de alta gama</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.5042,43.8428,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ristorante Il Giglio</name>
+        <description><![CDATA[<h3>Ristorante Il Giglio</h3>
+                        <p><b>Ciudad:</b> Lucca</p>
+                        <p><b>Categoría:</b> contemporary_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante refinado con cocina toscana contemporánea</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.5038,43.8435,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gli Orti di Via Elisa</name>
+        <description><![CDATA[<h3>Gli Orti di Via Elisa</h3>
+                        <p><b>Ciudad:</b> Lucca</p>
+                        <p><b>Categoría:</b> garden_trattoria</p>
+                        <p><b>Descripción:</b> Trattoria con jardín y especialidades lucchesas en ambiente familiar</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.5025,43.844,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cantina Do Mori</name>
+        <description><![CDATA[<h3>Cantina Do Mori</h3>
+                        <p><b>Ciudad:</b> Venezia</p>
+                        <p><b>Categoría:</b> historic_bacaro</p>
+                        <p><b>Descripción:</b> Bacaro histórico más antiguo de Venecia (1462) con cicchetti tradicionales</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>12.336,45.4379,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Al Mercà</name>
+        <description><![CDATA[<h3>Al Mercà</h3>
+                        <p><b>Ciudad:</b> Venezia</p>
+                        <p><b>Categoría:</b> market_bacaro</p>
+                        <p><b>Descripción:</b> Bacaro popular cerca del mercado de Rialto con cicchetti frescos</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>12.3364,45.4384,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria Boccadoro</name>
+        <description><![CDATA[<h3>Osteria Boccadoro</h3>
+                        <p><b>Ciudad:</b> Venezia</p>
+                        <p><b>Categoría:</b> contemporary_osteria</p>
+                        <p><b>Descripción:</b> Osteria refinada con cocina veneciana contemporánea y mariscos</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>12.338,45.437,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>I Porci Comodi</name>
+        <description><![CDATA[<h3>I Porci Comodi</h3>
+                        <p><b>Ciudad:</b> Pisa</p>
+                        <p><b>Categoría:</b> typical_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante popular con comida típica pisana, ambiente auténtico y precios accesibles</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.403,43.718,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria dei Cavallieri</name>
+        <description><![CDATA[<h3>Osteria dei Cavallieri</h3>
+                        <p><b>Ciudad:</b> Pisa</p>
+                        <p><b>Categoría:</b> elegant_osteria</p>
+                        <p><b>Descripción:</b> Elegancia rústica toscana cerca de la Torre de Pisa, cocina tradicional refinada</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.4015,43.7195,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antica Trattoria da Bruno</name>
+        <description><![CDATA[<h3>Antica Trattoria da Bruno</h3>
+                        <p><b>Ciudad:</b> Pisa</p>
+                        <p><b>Categoría:</b> traditional_trattoria</p>
+                        <p><b>Descripción:</b> Cocina regional toscana con mejores platos caseros pisanos de tierra y mar</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.404,43.7175,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria Il Vinnaio</name>
+        <description><![CDATA[<h3>Osteria Il Vinnaio</h3>
+                        <p><b>Ciudad:</b> Siena</p>
+                        <p><b>Categoría:</b> authentic_osteria</p>
+                        <p><b>Descripción:</b> Sitio favorito auténtico con cocina senese tradicional y ambiente local</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.3315,43.319,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Taverna di San Giuseppe</name>
+        <description><![CDATA[<h3>La Taverna di San Giuseppe</h3>
+                        <p><b>Ciudad:</b> Siena</p>
+                        <p><b>Categoría:</b> cave_tavern</p>
+                        <p><b>Descripción:</b> Taverna histórica en cueva medieval con especialidades toscanas</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.33,43.3175,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria le Logge</name>
+        <description><![CDATA[<h3>Osteria le Logge</h3>
+                        <p><b>Ciudad:</b> Siena</p>
+                        <p><b>Categoría:</b> michelin_osteria</p>
+                        <p><b>Descripción:</b> Osteria reconocida por Michelin con cocina senese refinada</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.331,43.318,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dorando</name>
+        <description><![CDATA[<h3>Dorando</h3>
+                        <p><b>Ciudad:</b> San Gimignano</p>
+                        <p><b>Categoría:</b> family_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante familiar con cocina toscana casera y vista de las torres</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.0435,43.4735,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Vecchie Mura</name>
+        <description><![CDATA[<h3>Le Vecchie Mura</h3>
+                        <p><b>Ciudad:</b> San Gimignano</p>
+                        <p><b>Categoría:</b> panoramic_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante con terraza panorámica y especialidades de la región</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.0445,43.474,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria del Carcere</name>
+        <description><![CDATA[<h3>Osteria del Carcere</h3>
+                        <p><b>Ciudad:</b> San Gimignano</p>
+                        <p><b>Categoría:</b> historic_osteria</p>
+                        <p><b>Descripción:</b> Osteria histórica en edificio medieval con cocina tradicional refinada</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.0442,43.4742,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Enoteca La Fortezza</name>
+        <description><![CDATA[<h3>Enoteca La Fortezza</h3>
+                        <p><b>Ciudad:</b> Montalcino</p>
+                        <p><b>Categoría:</b> castle_enoteca</p>
+                        <p><b>Descripción:</b> Enoteca histórica en la Fortezza con degustación de Brunello y vista panorámica</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.4885,43.0565,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Leccio</name>
+        <description><![CDATA[<h3>Il Leccio</h3>
+                        <p><b>Ciudad:</b> Montalcino</p>
+                        <p><b>Categoría:</b> wine_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante tradicional con cocina toscana y maridajes con vinos locales</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.489,43.055,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria di Porta al Cassero</name>
+        <description><![CDATA[<h3>Osteria di Porta al Cassero</h3>
+                        <p><b>Ciudad:</b> Montalcino</p>
+                        <p><b>Categoría:</b> gate_osteria</p>
+                        <p><b>Descripción:</b> Osteria familiar cerca de la puerta medieval con especialidades de caza</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.4888,43.056,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Pozzo</name>
+        <description><![CDATA[<h3>Il Pozzo</h3>
+                        <p><b>Ciudad:</b> Monteriggioni</p>
+                        <p><b>Categoría:</b> historic_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante histórico en la piazza con cocina toscana tradicional</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.2235,43.39,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria del Borgo</name>
+        <description><![CDATA[<h3>Osteria del Borgo</h3>
+                        <p><b>Ciudad:</b> Monteriggioni</p>
+                        <p><b>Categoría:</b> family_osteria</p>
+                        <p><b>Descripción:</b> Osteria familiar con vista de las torres y especialidades locales</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.223,43.3895,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Taverna</name>
+        <description><![CDATA[<h3>La Taverna</h3>
+                        <p><b>Ciudad:</b> Monteriggioni</p>
+                        <p><b>Categoría:</b> medieval_tavern</p>
+                        <p><b>Descripción:</b> Taverna con terraza y cocina casera toscana en ambiente medieval</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.2238,43.3902,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Bottegaia</name>
+        <description><![CDATA[<h3>La Bottegaia</h3>
+                        <p><b>Ciudad:</b> Pistoia</p>
+                        <p><b>Categoría:</b> traditional_osteria</p>
+                        <p><b>Descripción:</b> Osteria tradicional con cocina pistoiesa auténtica y productos locales</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.917,43.9335,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trattoria dell'Abbondanza</name>
+        <description><![CDATA[<h3>Trattoria dell'Abbondanza</h3>
+                        <p><b>Ciudad:</b> Pistoia</p>
+                        <p><b>Categoría:</b> historic_trattoria</p>
+                        <p><b>Descripción:</b> Trattoria histórica con especialidades toscanas y ambiente familiar</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.9175,43.933,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Jacopo</name>
+        <description><![CDATA[<h3>San Jacopo</h3>
+                        <p><b>Ciudad:</b> Pistoia</p>
+                        <p><b>Categoría:</b> refined_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante refinado cerca de la catedral con cocina contemporary toscana</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.918,43.9342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osteria di Passignano</name>
+        <description><![CDATA[<h3>Osteria di Passignano</h3>
+                        <p><b>Ciudad:</b> Val d'Orcia (San Quirico d'Orcia)</p>
+                        <p><b>Categoría:</b> local_osteria</p>
+                        <p><b>Descripción:</b> Osteria en Pienza con productos del Val d'Orcia y pecorino local</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.6767,43.0781,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trattoria Toscana da Fiorella</name>
+        <description><![CDATA[<h3>Trattoria Toscana da Fiorella</h3>
+                        <p><b>Ciudad:</b> Val d'Orcia (San Quirico d'Orcia)</p>
+                        <p><b>Categoría:</b> family_trattoria</p>
+                        <p><b>Descripción:</b> Trattoria familiar en San Quirico con cocina traditional Val d'Orcia</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.605,43.0575,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Porta</name>
+        <description><![CDATA[<h3>La Porta</h3>
+                        <p><b>Ciudad:</b> Val d'Orcia (San Quirico d'Orcia)</p>
+                        <p><b>Categoría:</b> panoramic_restaurant</p>
+                        <p><b>Descripción:</b> Restaurante en Monticchiello con vista panorámica y cocina territorial</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>11.6167,43.0833,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Romano</name>
+        <description><![CDATA[<h3>Romano</h3>
+                        <p><b>Ciudad:</b> Viareggio</p>
+                        <p><b>Categoría:</b> historic_seafood</p>
+                        <p><b>Descripción:</b> Restaurante histórico con especialidades de pescado y mariscos desde 1947</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.2405,43.8745,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Principe</name>
+        <description><![CDATA[<h3>Il Principe</h3>
+                        <p><b>Ciudad:</b> Viareggio</p>
+                        <p><b>Categoría:</b> contemporary_seafood</p>
+                        <p><b>Descripción:</b> Restaurante refinado con cocina marinera contemporánea y vista al mar</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.24,43.874,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Margherita</name>
+        <description><![CDATA[<h3>Margherita</h3>
+                        <p><b>Ciudad:</b> Viareggio</p>
+                        <p><b>Categoría:</b> beach_trattoria</p>
+                        <p><b>Descripción:</b> Trattoria de playa con especialidades locales y ambiente familiar versiliese</p>]]></description>
+        <styleUrl>#restaurants_style</styleUrl>
+        <Point>
+          <coordinates>10.239,43.8735,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

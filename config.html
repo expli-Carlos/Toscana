@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔧 Configuración - Ruta Turística por Italia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #009246, #0066cc, #ce2b37);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .config-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .config-header {
+            background: linear-gradient(45deg, #009246, #0066cc);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .config-header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .config-header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .config-content {
+            padding: 40px 30px;
+        }
+
+        .step {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-left: 4px solid #0066cc;
+        }
+
+        .step-number {
+            background: #0066cc;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            margin-bottom: 10px;
+        }
+
+        .step h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .step p {
+            color: #7f8c8d;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .code-block {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            background: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        .btn:hover {
+            background: #004499;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+        }
+
+        .btn-secondary {
+            background: #009246;
+        }
+
+        .btn-secondary:hover {
+            background: #007a3d;
+        }
+
+        .api-key-input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin: 10px 0;
+            transition: border-color 0.3s ease;
+        }
+
+        .api-key-input:focus {
+            outline: none;
+            border-color: #0066cc;
+            box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+        }
+
+        .status {
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .config-footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            color: #7f8c8d;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        @media (max-width: 600px) {
+            .config-content {
+                padding: 30px 20px;
+            }
+            
+            .config-header {
+                padding: 30px 20px;
+            }
+            
+            .step {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="config-container">
+        <div class="config-header">
+            <h1>🔧 Configuración de Google Maps</h1>
+            <p>Configura tu clave API para una experiencia completa</p>
+        </div>
+
+        <div class="config-content">
+            <!-- Current Status -->
+            <div class="step">
+                <span class="step-number">ℹ️</span>
+                <h3>Estado Actual</h3>
+                <div id="current-status" class="status warning">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Sin configurar - La aplicación funcionará con funcionalidad limitada
+                </div>
+            </div>
+
+            <!-- Step 1: Get API Key -->
+            <div class="step">
+                <span class="step-number">1</span>
+                <h3>Obtener Clave API de Google Maps</h3>
+                <p>Necesitas una clave API gratuita para acceder a todas las funcionalidades del mapa:</p>
+                
+                <ol style="margin-left: 20px; color: #7f8c8d;">
+                    <li>Ve a <a href="https://console.cloud.google.com/" target="_blank">Google Cloud Console</a></li>
+                    <li>Crea un proyecto nuevo o selecciona uno existente</li>
+                    <li>Habilita la <strong>Google Maps JavaScript API</strong></li>
+                    <li>Ve a "Credenciales" y crea una nueva API Key</li>
+                    <li>Copia la clave generada</li>
+                </ol>
+
+                <a href="https://console.cloud.google.com/" target="_blank" class="btn">
+                    <i class="fab fa-google"></i>
+                    Ir a Google Cloud Console
+                </a>
+            </div>
+
+            <!-- Step 2: Configure API Key -->
+            <div class="step">
+                <span class="step-number">2</span>
+                <h3>Configurar Clave API</h3>
+                <p>Introduce tu clave API aquí para configurar automáticamente la aplicación:</p>
+                
+                <input type="text" 
+                       id="api-key-input" 
+                       class="api-key-input" 
+                       placeholder="Pega tu clave API aquí (ej: AIzaSyC7X-example-key...)">
+                
+                <button onclick="saveApiKey()" class="btn">
+                    <i class="fas fa-save"></i>
+                    Guardar Configuración
+                </button>
+
+                <div id="save-status"></div>
+            </div>
+
+            <!-- Step 3: Alternative Method -->
+            <div class="step">
+                <span class="step-number">3</span>
+                <h3>Método Alternativo (Manual)</h3>
+                <p>Si prefieres configurar manualmente, edita el archivo JavaScript:</p>
+                
+                <div class="code-block">
+// Edita assets/js/main.js línea 16:
+const CONFIG = {
+    apiKey: 'TU_CLAVE_API_AQUI',
+    // ... resto de configuración
+};
+                </div>
+            </div>
+
+            <!-- Step 4: Test -->
+            <div class="step">
+                <span class="step-number">4</span>
+                <h3>Probar Configuración</h3>
+                <p>Una vez configurada la API key, prueba que todo funciona correctamente:</p>
+                
+                <div class="links">
+                    <a href="index.html" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Abrir Aplicación
+                    </a>
+                    
+                    <button onclick="testApiKey()" class="btn">
+                        <i class="fas fa-check"></i>
+                        Probar API Key
+                    </button>
+                </div>
+            </div>
+
+            <!-- Without API Key -->
+            <div class="step">
+                <span class="step-number">💡</span>
+                <h3>¿Sin API Key?</h3>
+                <p>La aplicación funciona sin API key pero con limitaciones:</p>
+                
+                <ul style="margin-left: 20px; color: #7f8c8d;">
+                    <li><strong>✅ Disponible:</strong> Mapa básico, marcadores, información</li>
+                    <li><strong>❌ No disponible:</strong> Clustering avanzado, rutas, geocoding</li>
+                </ul>
+
+                <a href="index.html" class="btn btn-secondary">
+                    <i class="fas fa-play"></i>
+                    Usar Sin API Key
+                </a>
+            </div>
+        </div>
+
+        <div class="config-footer">
+            <p>🇮🇹 <strong>Ruta Turística por Italia</strong> - Configuración Simple</p>
+            <p>Tu clave API se guarda localmente en tu navegador</p>
+        </div>
+    </div>
+
+    <script>
+        // Check current status on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            checkCurrentStatus();
+        });
+
+        function checkCurrentStatus() {
+            const savedApiKey = localStorage.getItem('google_maps_api_key');
+            const statusDiv = document.getElementById('current-status');
+            
+            if (savedApiKey && savedApiKey.length > 10) {
+                statusDiv.className = 'status success';
+                statusDiv.innerHTML = '<i class="fas fa-check-circle"></i> API Key configurada correctamente';
+                
+                // Show current key (masked)
+                const maskedKey = savedApiKey.substring(0, 10) + '...';
+                statusDiv.innerHTML += `<br><small>Clave actual: ${maskedKey}</small>`;
+            } else {
+                statusDiv.className = 'status warning';
+                statusDiv.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Sin configurar - La aplicación funcionará con funcionalidad limitada';
+            }
+        }
+
+        function saveApiKey() {
+            const apiKeyInput = document.getElementById('api-key-input');
+            const saveStatus = document.getElementById('save-status');
+            const apiKey = apiKeyInput.value.trim();
+            
+            if (!apiKey) {
+                showStatus('error', 'Por favor, introduce una clave API válida');
+                return;
+            }
+            
+            if (apiKey.length < 10 || !apiKey.startsWith('AIza')) {
+                showStatus('error', 'La clave API no parece válida. Debe empezar por "AIza" y tener más de 10 caracteres');
+                return;
+            }
+            
+            // Save to localStorage
+            localStorage.setItem('google_maps_api_key', apiKey);
+            
+            // Update main.js file (this would need server-side implementation)
+            showStatus('success', '✅ Clave API guardada correctamente en el navegador');
+            
+            // Update current status
+            setTimeout(checkCurrentStatus, 500);
+            
+            // Clear input
+            apiKeyInput.value = '';
+        }
+
+        function testApiKey() {
+            const savedApiKey = localStorage.getItem('google_maps_api_key');
+            
+            if (!savedApiKey) {
+                showStatus('error', 'No hay clave API configurada');
+                return;
+            }
+            
+            showStatus('warning', '🔍 Probando conexión con Google Maps...');
+            
+            // Test the API key by making a simple request
+            const script = document.createElement('script');
+            script.src = `https://maps.googleapis.com/maps/api/js?key=${savedApiKey}&callback=testCallback`;
+            script.onerror = function() {
+                showStatus('error', 'Error: No se pudo conectar con Google Maps. Verifica tu clave API');
+            };
+            
+            document.head.appendChild(script);
+        }
+
+        function testCallback() {
+            showStatus('success', '✅ Conexión exitosa con Google Maps API');
+        }
+
+        function showStatus(type, message) {
+            const saveStatus = document.getElementById('save-status');
+            saveStatus.className = `status ${type}`;
+            saveStatus.innerHTML = message;
+            
+            // Auto-hide after 5 seconds
+            setTimeout(() => {
+                saveStatus.innerHTML = '';
+                saveStatus.className = '';
+            }, 5000);
+        }
+
+        // Update main.js with saved API key (client-side approach)
+        function updateMainJS() {
+            const savedApiKey = localStorage.getItem('google_maps_api_key');
+            if (savedApiKey) {
+                // This is a simple approach - in a real app you'd want server-side processing
+                // For now, the main.js will check localStorage for the API key
+                console.log('API Key available for main.js:', savedApiKey.substring(0, 10) + '...');
+            }
+        }
+    </script>
+</body>
+</html>
